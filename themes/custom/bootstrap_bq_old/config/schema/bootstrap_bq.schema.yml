@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bootstrap BioQuant Theme.
+
+bootstrap_bq.settings:
+  type: bootstrap_bq.settings
+  label: 'Bootstrap BioQuant settings'

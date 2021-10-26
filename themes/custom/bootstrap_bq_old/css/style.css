@@ -1,0 +1,15 @@
+/* @file Subtheme specific CSS. */
+
+/* ========== Custom font ========== */
+html {
+    font-family: 'Trade Gothic LT Std', sans-serif !important;
+}
+
+/* ========== Page areas padding ========== */
+body {
+    padding: 90px 0% 0%;
+}
+section {
+    padding-left: 0rem; 
+    padding-right: 0rem;
+}

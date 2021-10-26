@@ -1,64 +1,77 @@
+/* ========== Custom color scheme ========== */
+:root {
+  --green: 34, 180, 166; /*#22b4a6*/
+  --white: 252, 253, 255; /*#fcfdff*/
+  --grey: 222, 227, 234; /*#dee3ea*/
+  --black: 36, 36, 38; /*#242426*/
+  --purple: 158, 30, 121; /*#9E1E79*/
+  --alpha: 0.7;
+}
+
 /* ---------- Color Module Styles ----------- */
 
 body {
-  color: #3b3b3b;
-  background: #292929;
+  color: rgb(var(--black));
+  background: rgb(var(--white));
 }
 
 #page,
 #main-wrapper,
 .region-primary-menu .menu-item a.is-active,
 .region-primary-menu .menu-item--active-trail a {
-  background: #fff;
+  background: rgb(var(--white));
 }
 
 .tabs ul.primary li a.is-active {
-  background-color: #fff;
+  background-color: rgb(var(--white));
 }
 
 .tabs ul.primary li.is-active a {
-  background-color: #fff;
-  border-bottom-color: #fff;
+  background-color: rgb(var(--white));
+  border-bottom-color: rgb(var(--white));
 }
 
 #navbar-top {
-  background-color: #055a8e;
+  background-color: rgb(var(--grey));
 }
 
 #navbar-main {
-  background-color: #1d84c3;
+  background-color: rgb(var(--grey));
 }
 
 a,
 .link {
-  color: #0071b3;
+  color: rgb(var(--green));
+  text-decoration: underline;
 }
 
 a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-  color: #018fe2;
+  color: rgba(var(--black), var(--alpha));
+  text-decoration: underline;
 }
 
 a:active,
 .link:active {
-  color: #23aeff;
+  color: rgba(var(--black), var(--alpha));
+  text-decoration: underline;
 }
 
 .page-item.active .page-link {
-  background-color: #0071b3;
-  border-color: #0071b3;
+  background-color: rgb(var(--green));
+  border-color: rgb(var(--green));
 }
 
 .page-link,
 .page-link:hover {
-  color: #0071b3;
+  color: rgba(var(--black), var(--alpha));
 }
 
 .sidebar .block {
-  background-color: #f6f6f2;
-  border-color: #f9f9f9;
+  background-color: rgb(var(--grey));
+  border-color: rgb(var(--grey));
 }
 
 .btn-primary {
@@ -72,7 +85,7 @@ a:active,
 }
 
 .site-footer {
-  background: #292929;
+  background: rgb(var(--black));
 }
 
 .region-header,
@@ -84,7 +97,7 @@ a:active,
 .region-header .site-branding a,
 .region-secondary-menu .menu-item a,
 .region-secondary-menu .menu-item a.is-active {
-  color: #fffeff;
+  color: rgb(var(--white));
 }
 
 
