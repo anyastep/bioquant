@@ -8,10 +8,10 @@ global-styling:
       css/colors.css: {}
 bootstrap:
   js:
-    /libraries/bootstrap/dist/js/bootstrap.min.js: { weight: -48 }
+    /libraries/bootstrap/js/bootstrap.min.js: { weight: -48 }
   css:
     component:
-      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+      /libraries/bootstrap/css/bootstrap.min.css: {}
 bootstrap_cdn:
   js:
     //cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js: {}
