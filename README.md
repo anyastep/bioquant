@@ -1,2 +1,2 @@
-# bioquant_dev
- BioQuant website development 
+# bioquant
+ BioQuant website development and management
