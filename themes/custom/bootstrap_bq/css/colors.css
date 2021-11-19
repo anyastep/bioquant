@@ -13,7 +13,7 @@
 
 body {
   color: rgb(var(--black));
-  background: rgb(var(--black));
+  background: rgb(var(--white));
 }
 
 #page,
@@ -82,11 +82,12 @@ a:active,
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: rgba(var(--black), var(--alpha));
+  background-color: rgba(var(--green), var(--alpha));
+  border-color: rgba(var(--green), var(--alpha));
 }
 
 .site-footer {
-  background: rgb(var(--grey));
+  background: rgb(var(--black));
 }
 
 .region-header,
