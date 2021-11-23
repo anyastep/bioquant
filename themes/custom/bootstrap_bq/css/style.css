@@ -1,18 +1,43 @@
-/* @file Subtheme specific CSS. */
-
-/* ========== Custom font ========== */
-html {
-    font-family: 'Trade Gothic LT Std', sans-serif !important;
-}
-
-/* ========== Page areas padding ========== */
+/* @file Subtheme specific CSS */
 
 body {
-    padding: 90px 0% 0%;
-}
+    height: 100%;
 
-section {
-    padding-left: 0rem; 
-    padding-right: 0rem;
+    /* Custom font */
+    font-family: 'Trade Gothic LT Std', sans-serif !important;
 }
+#page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.layout-main-wrapper {
 
+    /* Stretch short content for sticky footer */
+    flex: 1 0 auto;
+
+    /* Add space above footer */
+    margin-bottom: 3em;
+}
+.site-footer {
+    flex-shrink: 0;
+}
+/* Set page width */
+.container,
+.container-fluid {
+    max-width: 960px;
+}
+/* Remove region margins and padding ---------- */
+.node__content {
+
+    margin-top: 0;
+}
+.site-footer,
+.site-footer .container-fluid,
+.site-footer__bottom,
+.site-footer__bottom .region,
+.site-footer__bottom .block,
+.site-footer__bottom .content {
+    padding: 0;
+    margin: 0;
+}
