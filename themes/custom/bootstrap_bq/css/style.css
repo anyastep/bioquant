@@ -22,11 +22,16 @@ body {
 .site-footer {
     flex-shrink: 0;
 }
-/* Set page width */
+
+/* Set max page width */
 .container {
     max-width: 960px;
 }
+
 /* Remove region margins and padding ---------- */
+.main-content {
+    padding: 0;
+}
 .node__content {
 
     margin-top: 0;
