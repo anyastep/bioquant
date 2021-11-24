@@ -1,0 +1,69 @@
+<style type="text/css">
+ .hero-text {
+    color: rgb(252, 253, 255);
+    background-color: rgb(36, 36, 38);
+ }
+ .hero-text .btn {
+    color: rgb(16, 155, 158);
+    border-color: rgb(16, 155, 158);
+    padding: 1em;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+ }
+ .hero-text .btn:hover {
+    color: rgb(252, 253, 255);
+    background-color: rgb(222, 227, 234);
+    text-decoration: none;
+ }
+ .hero-text .btn:before {
+    content: "";
+    background: rgb(16, 155, 158);
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    -moz-transition: all 0.25s ease-in-out 0s;
+    -ms-transition: all 0.25s ease-in-out 0s;
+    -o-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+ }
+ .hero-text .btn:hover:before {
+    width: 100%;
+ }
+</style>
+
+<!--Hero section-->
+<section class="hero-text py-5">
+
+    <div class="container py-5">
+
+        <!--Heading-->
+        <p class="lead text-center">
+            Center for Quantitative Analysis of Molecular and Cellular Biosystems
+        </p>
+        <!--/.Heading-->
+
+        <!--Slogan-->
+        <h1 class="text-center py-5 display-4">
+            Model Base of Life
+        </h1>
+        <!--/.Slogan-->
+
+        <!--Hero button-->
+        <div class="d-flex justify-content-center">
+
+            <a href="#" class="btn btn-outline-secondary col-lg-4">
+                Explore research at BioQuant
+            </a>
+
+        </div>
+        <!--/.Hero button-->
+
+    </div>
+
+</section>
+<!--/.Hero section-->
