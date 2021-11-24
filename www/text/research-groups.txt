@@ -30,7 +30,7 @@ We work on gene (de)regulation in diseases and methods for integration of large 
 
 Modeling of Biological Processes
 Prof. Dr. Ursula Kummer
-We develop methods for the simulation, modeling and analysis of biochemical networks to tackle biochemical questions.
+We develop methods for the simulation, modeling and analysis of biochemical networks.
 
 Single-cell Open Lab
 Dr. Jan-Philipp Mallm
@@ -80,7 +80,7 @@ We provide medical informatics solutions to make patient data accessible for cli
 
 Single Molecule Biophysics
 Prof. Mike Heilemann
-We study biomolecule structures using microscopy with sub-diffraction-limit resolution and single-molecule sensitivity.
+We study biomolecule structures using sub-diffraction-limit resolution imaging with single-molecule sensitivity.
 
 Systems Biology of Signal Transduction
 Prof. Ursula Klingmüller
