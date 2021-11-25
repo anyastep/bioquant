@@ -28,7 +28,7 @@ body {
     max-width: 960px;
 }
 
-/* Remove region margins and padding ---------- */
+/* Remove region margins and padding */
 .node__content {
 
     margin-top: 0;
