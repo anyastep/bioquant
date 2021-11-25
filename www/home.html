@@ -1,0 +1,446 @@
+<style type="text/css">
+
+    /* Hero section */
+
+    .hero {
+        color: rgb(252, 253, 255);
+        background-image: url(/sites/default/files/2021-11/hero-img.jpg);
+        background-color: rgb(36, 36, 38);
+        height: 85vh;
+        position: relative;
+    }
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hero .btn {
+        color: rgb(252, 253, 255);
+        background-color: rgb(16, 155, 158);
+        padding: 1em;
+        position: relative;
+        overflow: hidden;
+        z-index: 9;
+    }
+    .hero .btn:hover {
+        background-color: rgb(36, 36, 38);
+        text-decoration: none;
+    }
+
+    /* General */
+
+    .section-title {
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .section-link {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+    .section-link:hover {
+        text-decoration: none;
+    }
+
+    /* News section */
+
+    /* Events section */
+
+    .event {
+        height: 100%;
+        background-color: rgb(222, 227, 234);
+    }
+    .event-img {
+        background-image: url(/sites/default/files/2021-11/event-img.jpg);
+        background-color: rgb(252, 253, 255);
+        background-size: cover;
+        min-height: 100%;
+        position: relative;
+    }
+    .event-overlay {
+        background-color: rgb(16, 155, 158);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .event-date {
+        text-align: center;
+        color: rgb(252, 253, 255);
+    }
+    .event-month,
+    .event-year {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+    .event-day {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    .event-type {
+        color: rgb(16, 155, 158);
+        text-transform: uppercase;
+    }
+    .event-title {
+        color: rgb(36, 36, 38);
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+    .event-title:hover {
+        color: rgb(36, 36, 38);
+        color: rgba(36, 36, 38, 0.7);
+        text-decoration: none;
+    }
+</style>
+
+<!--Hero section-->
+<section class="hero py-5">
+
+    <!--Hero text-->
+    <div class="container hero-text py-5">
+
+        <!--Heading-->
+        <p class="lead text-center">
+            Center for Quantitative Analysis of Molecular and Cellular Biosystems
+        </p>
+        <!--/.Heading-->
+
+        <!--Slogan-->
+        <h1 class="text-center py-5 display-4">
+            Model Base of Life
+        </h1>
+        <!--/.Slogan-->
+
+        <!--Hero button-->
+        <div class="d-flex justify-content-center">
+
+            <a href="#" class="btn btn-outline-secondary col-lg-4">
+                Explore research at BioQuant
+            </a>
+
+        </div>
+        <!--/.Hero button-->
+
+    </div>
+    <!--/.Hero text-->
+
+</section>
+<!--/.Hero section-->
+
+<!--Events section-->
+<section>
+
+    <div class="container col-lg py-5">
+
+        <!--Section title-->
+        <div class="d-flex justify-content-between align-items-center">
+
+            <div class="section-title">Events</div>
+    
+            <a class="section-link" href="#">All events</a>
+
+        </div>
+        <!--/.Section title-->
+
+        <!--Event 1-->
+        <div class="container event px-0 my-5">
+
+            <div class="row mx-auto">
+
+                <!--Event image-->
+                <div class="col-3 event-img px-0">
+    
+                    <!--Event image overlay-->
+                    <div class="event-overlay">
+
+                        <!--Event date-->
+                        <div class="container event-date p-3">
+
+                            <p class="event-month">OCT</p>
+                            <p class="event-day">15</p>
+                            <p class="event-year">2021</p>
+
+                        </div>
+                        <!--/.Event date-->
+    
+                    </div>
+                    <!--/.Event image overlay-->
+    
+                </div>
+                <!--/.Event image-->
+    
+                <!--Text-->
+                <div class="col-9 p-5">
+    
+                    <!--Event type-->
+                    <p class="event-type">
+                        Bioquant Seminar
+                    </p>
+                    <!--/.Event type-->
+    
+                    <!--Event title-->
+                    <p>
+                        <a class="event-title" href="#">
+                            Two-dimensional SAS-6 self-assembly directs centriole formation through kinetic and structural mechanisms
+                        </a>
+                    </p>
+                    <!--/.Event title-->
+    
+                    <!--Event host-->
+                    <p class="event-host">
+                        by Dr. Niccolo Banterle
+                    </p>
+                    <!--/.Event host-->
+    
+                    <!--Event info-->
+                    <div class="row">
+    
+                        <!--Event time-->
+                        <div class="col-lg-2">
+    
+                            <p>
+    
+                                <!--Clock icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+    
+                                16:00
+    
+                            </p>
+    
+                        </div>
+                        <!--/.Event time-->
+    
+                        <!--Event location-->
+                        <div class="col">
+    
+                            <p>
+    
+                                <!--Pin icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+    
+                                Seminar room 041 & Zoom meeting
+    
+                            </p>
+    
+                        </div>
+                        <!--/.Event location-->
+                        
+                    </div>
+                    <!--/.Event info-->
+                    
+                </div>
+                <!--/.Text-->
+                
+            </div>
+
+        </div>
+        <!--/.Event 1-->
+
+        <!--Event 2-->
+        <div class="container event px-0 my-5">
+
+            <div class="row mx-auto">
+
+                <!--Event image-->
+                <div class="col-3 event-img px-0">
+    
+                    <!--Event image overlay-->
+                    <div class="event-overlay">
+
+                        <!--Event date-->
+                        <div class="container event-date p-3">
+
+                            <p class="event-month">OCT</p>
+                            <p class="event-day">15</p>
+                            <p class="event-year">2021</p>
+
+                        </div>
+                        <!--/.Event date-->
+    
+                    </div>
+                    <!--/.Event image overlay-->
+    
+                </div>
+                <!--/.Event image-->
+    
+                <!--Text-->
+                <div class="col-9 p-5">
+    
+                    <!--Event type-->
+                    <p class="event-type">
+                        Bioquant Seminar
+                    </p>
+                    <!--/.Event type-->
+    
+                    <!--Event title-->
+                    <p>
+                        <a class="event-title" href="#">
+                            Two-dimensional SAS-6 self-assembly directs centriole formation through kinetic and structural mechanisms
+                        </a>
+                    </p>
+                    <!--/.Event title-->
+    
+                    <!--Event host-->
+                    <p class="event-host">
+                        by Dr. Niccolo Banterle
+                    </p>
+                    <!--/.Event host-->
+    
+                    <!--Event info-->
+                    <div class="row">
+    
+                        <!--Event time-->
+                        <div class="col-lg-2">
+    
+                            <p>
+    
+                                <!--Clock icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+    
+                                16:00
+    
+                            </p>
+    
+                        </div>
+                        <!--/.Event time-->
+    
+                        <!--Event location-->
+                        <div class="col">
+    
+                            <p>
+    
+                                <!--Pin icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+    
+                                Seminar room 041 & Zoom meeting
+    
+                            </p>
+    
+                        </div>
+                        <!--/.Event location-->
+                        
+                    </div>
+                    <!--/.Event info-->
+                    
+                </div>
+                <!--/.Text-->
+                
+            </div>
+
+        </div>
+        <!--/.Event 2-->
+
+        <!--Event 3-->
+        <div class="container event px-0 my-5">
+
+            <div class="row mx-auto">
+
+                <!--Event image-->
+                <div class="col-3 event-img px-0">
+    
+                    <!--Event image overlay-->
+                    <div class="event-overlay">
+
+                        <!--Event date-->
+                        <div class="container event-date p-3">
+
+                            <p class="event-month">OCT</p>
+                            <p class="event-day">15</p>
+                            <p class="event-year">2021</p>
+
+                        </div>
+                        <!--/.Event date-->
+    
+                    </div>
+                    <!--/.Event image overlay-->
+    
+                </div>
+                <!--/.Event image-->
+    
+                <!--Text-->
+                <div class="col-9 p-5">
+    
+                    <!--Event type-->
+                    <p class="event-type">
+                        Bioquant Seminar
+                    </p>
+                    <!--/.Event type-->
+    
+                    <!--Event title-->
+                    <p>
+                        <a class="event-title" href="#">
+                            Two-dimensional SAS-6 self-assembly directs centriole formation through kinetic and structural mechanisms
+                        </a>
+                    </p>
+                    <!--/.Event title-->
+    
+                    <!--Event host-->
+                    <p class="event-host">
+                        by Dr. Niccolo Banterle
+                    </p>
+                    <!--/.Event host-->
+    
+                    <!--Event info-->
+                    <div class="row">
+    
+                        <!--Event time-->
+                        <div class="col-lg-2">
+    
+                            <p>
+    
+                                <!--Clock icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+    
+                                16:00
+    
+                            </p>
+    
+                        </div>
+                        <!--/.Event time-->
+    
+                        <!--Event location-->
+                        <div class="col">
+    
+                            <p>
+    
+                                <!--Pin icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+    
+                                Seminar room 041 & Zoom meeting
+    
+                            </p>
+    
+                        </div>
+                        <!--/.Event location-->
+                        
+                    </div>
+                    <!--/.Event info-->
+                    
+                </div>
+                <!--/.Text-->
+                
+            </div>
+
+        </div>
+        <!--/.Event 3-->
+
+    </div>
+
+</section>
+<!--/.Events section-->
