@@ -15,15 +15,15 @@ Read More (Link to blog page)
 
 <News2>
 Title: BioQuant website is relaunching soon!
-Subtitle: We are working very hard to bring you the new BioQuant website. You can still access the old website while the updated version is under construction.
-Date: November , 2021
+Subtitle: We are working very hard to bring you the new BioQuant website. You can still access the old website while this version is under construction.
+Date: November 30, 2021
 Read More (Link to blog page)
 
 <News3>
 Title: Current information on coronavirus guidelines at Heidelberg University
-Subtitle: Find the latest information on corona ordinances, regulations for organizing events or teaching, vaccination opportunities, data collection and more.
-Date: November 10, 2021
-Read More (Link to blog page)
+Subtitle: Find the latest information on corona ordinances, regulations for organizing events or teaching, vaccination opportunities, data collection, and more.
+Date: November 24, 2021
+Read More (https://www.uni-heidelberg.de/de/newsroom/informationen-zum-coronavirus)
 
 <Events>
 EVENTS
