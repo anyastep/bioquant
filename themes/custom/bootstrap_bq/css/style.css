@@ -23,6 +23,11 @@ body {
     flex-shrink: 0;
 }
 
+/* Set navbar region to full width */
+#block-navbar {
+    width: 100%;
+}
+
 /* Set max page width */
 .container {
     max-width: 960px;
