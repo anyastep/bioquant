@@ -24,6 +24,7 @@ body {
 }
 
 /* Set navbar region to full width */
+.region-top-header,
 #block-navbar {
     width: 100%;
 }
@@ -34,6 +35,9 @@ body {
 }
 
 /* Remove region margins and padding */
+#navbar-top {
+    padding-bottom: 0;
+}
 .node__content {
 
     margin-top: 0;
