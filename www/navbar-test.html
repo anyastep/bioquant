@@ -1,0 +1,190 @@
+<style type="text/css">
+    .navbar-custom {
+        padding: 0;
+    }
+    .nav-link {
+        color: rgb(36, 36, 38);
+        font-size: 0.875rem;
+    }
+    .nav-link:hover,
+    .nav-link:focus {
+        color: rgb(36, 36, 38);
+        color: rgba(36, 36, 38, 0.7);
+        text-decoration: none;
+    }
+    .uni-link {
+        color: rgb(36, 36, 38);
+        color: rgba(36, 36, 38, 0.7);
+        font-size: 0.875rem;
+        text-decoration: none;
+        padding-top: 0.5rem;
+    }
+    .uni-link:hover,
+    .nav-link:focus {
+        color: rgb(16, 155, 158);
+        text-decoration: none;
+    }
+    @media (min-width: 992px) {
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .dropdown-toggle::after {
+            content: none;
+        }
+    }
+    .dropdown-menu {
+        background-color: rgb(222, 227, 234);
+    }
+    .dropdown-item {
+        color: rgb(36, 36, 38);
+        font-size: 0.875rem;
+    }
+    .dropdown-item:hover {
+        color: rgb(36, 36, 38);
+        color: rgba(36, 36, 38, 0.7);
+        text-decoration: none;
+        background-color: rgba(252, 253, 255, 0.2);
+    }
+</style>
+
+<!--Navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-custom">
+
+    <div class="container mx-auto">
+
+        <div class="py-2">
+
+            <!--Main logo-->
+            <a class="navbar-brand" href="#">
+                <img src="/sites/default/files/logo_bq.svg" alt="BioQuant logo">
+            </a>
+            <!--/.Main logo-->
+
+            <!--Collapse button-->
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--/.Collapse button-->
+
+        </div>
+
+        <div>
+
+            <!--Uni brand-->
+            <div class="d-flex justify-content-end">
+
+                <a class="uni-link" href="https://www.uni-heidelberg.de/en">
+
+                    Heidelberg University
+    
+                    <!--Arrow-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 19 19">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                    <!--/.Arrow-->
+    
+                </a>
+
+            </div>
+            <!--/.Uni brand-->
+
+            <!--Collapsible content-->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                <!--Links-->
+                <ul class="navbar-nav ms-auto">
+    
+                    <!--Link 1-->
+                    <li class="nav-item dropdown">
+    
+                        <!--Heading-->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Research
+                            </a>
+                        <!--/.Heading-->
+                        
+                        <!--Categories-->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Research Groups</a>
+                            <a class="dropdown-item" href="#">Core Facilities</a>
+                            <a class="dropdown-item" href="#">Publications</a>
+                            <a class="dropdown-item" href="#">Careers at Bioquant</a>
+                        </div>
+                        <!--/.Categories-->
+    
+                    </li>
+                    <!--/.Link 1-->
+    
+                    <!--Link 2-->
+                    <li class="nav-item dropdown">
+    
+                        <!--Heading-->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Education
+                            </a>
+                        <!--/.Heading-->
+                        
+                        <!--Categories-->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Master Program</a>
+                            <a class="dropdown-item" href="#">PhD Program</a>
+                        </div>
+                        <!--/.Categories-->
+    
+                    </li>
+                    <!--/.Link 2-->
+    
+                    <!--Link 3-->
+                    <li class="nav-item dropdown">
+    
+                        <!--Heading-->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                        <!--/.Heading-->
+                        
+                        <!--Categories-->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Jobs</a>
+                            <a class="dropdown-item" href="#">News</a>
+                            <a class="dropdown-item" href="#">Events</a>
+                            <a class="dropdown-item" href="#">Media</a>
+                        </div>
+                        <!--/.Categories-->
+    
+                    </li>
+                    <!--/.Link 3-->
+    
+                    <!--Link 4-->
+                    <li class="nav-item dropdown">
+    
+                        <!--Heading-->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                        <!--/.Heading-->
+                        
+                        <!--Categories-->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Institute</a>
+                            <a class="dropdown-item" href="#">Organization</a>
+                            <a class="dropdown-item" href="#">Staff Directory</a>
+                            <a class="dropdown-item" href="#">Contact</a>
+                        </div>
+                        <!--/.Categories-->
+    
+                    </li>
+                    <!--/.Link 4-->
+    
+                </ul>
+                <!--/.Links-->
+    
+            </div>
+            <!--/.Collapsible content-->
+
+        </div>
+
+    </div>
+
+</nav>
+<!--/.Navigation bar-->
