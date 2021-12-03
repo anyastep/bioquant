@@ -25,6 +25,7 @@
     }
     .hero .btn:hover {
         color: rgb(36, 36, 38);
+        color: rgba(36, 36, 38, 0.7);
         background-color: rgb(252, 253, 255);
         text-decoration: none;
     }
@@ -46,13 +47,6 @@
     .section-link:hover {
         text-decoration: none;
     }
-
-    /* News section */
-
-    .news {
-        background-color: rgb(222, 227, 234);
-        text-align: justify;
-    }
     .block-link {
         position: relative;
     }
@@ -68,6 +62,13 @@
         position: relative;
         z-index: 100;
     }
+
+    /* News section */
+
+    .news {
+        background-color: rgb(222, 227, 234);
+        text-align: justify;
+    }
     .highlight {
         height: 100%;
         color: rgb(252, 253, 255);
@@ -82,7 +83,7 @@
         transition: 0.3s ease;
     }
     .block-link:hover .highlight-img {
-        opacity: 0.5;
+        opacity: 0.7;
     }
     .highlight-title {
         font-size: 1.375rem;
@@ -139,6 +140,10 @@
         background-size: cover;
         min-height: 100%;
         position: relative;
+        transition: 0.3s ease;
+    }
+    .block-link:hover .event-img {
+        opacity: 0.7;
     }
     .event-overlay {
         background-color: rgb(16, 155, 158);
@@ -393,7 +398,7 @@
         <!--/.Section title-->
 
         <!--Event 1-->
-        <div class="container event px-0 mt-4">
+        <div class="container event block-link px-0 mt-4">
 
             <div class="row mx-auto">
 
@@ -431,6 +436,7 @@
                     <!--Event title-->
                     <p>
                         <a class="event-title" href="#">
+                            <span class="main-link">&nbsp;</span>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl.
                         </a>
                     </p>
@@ -438,7 +444,7 @@
     
                     <!--Event host-->
                     <p>
-                        by <a class="event-host" href="#">Someone</a> from <a class="event-host" href="#">Somewhere</a>
+                        by <a class="event-host sub-link" href="#">Someone</a> from <a class="event-host sub-link" href="#">Somewhere</a>
                     </p>
                     <!--/.Event host-->
     
@@ -491,7 +497,7 @@
         <!--/.Event 1-->
 
         <!--Event 2-->
-        <div class="container event px-0 mt-4">
+        <div class="container event block-link px-0 mt-4">
 
             <div class="row mx-auto">
 
@@ -529,6 +535,7 @@
                     <!--Event title-->
                     <p>
                         <a class="event-title" href="#">
+                            <span class="main-link">&nbsp;</span>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl.
                         </a>
                     </p>
@@ -536,7 +543,7 @@
     
                     <!--Event host-->
                     <p>
-                        by <a class="event-host" href="#">Someone</a> from <a class="event-host" href="#">Somewhere</a>
+                        by <a class="event-host sub-link" href="#">Someone</a> from <a class="event-host sub-link" href="#">Somewhere</a>
                     </p>
                     <!--/.Event host-->
     
@@ -589,7 +596,7 @@
         <!--/.Event 2-->
 
         <!--Event 3-->
-        <div class="container event px-0 mt-4">
+        <div class="container event block-link px-0 mt-4">
 
             <div class="row mx-auto">
 
@@ -627,6 +634,7 @@
                     <!--Event title-->
                     <p>
                         <a class="event-title" href="#">
+                            <span class="main-link">&nbsp;</span>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl.
                         </a>
                     </p>
@@ -634,7 +642,7 @@
     
                     <!--Event host-->
                     <p>
-                        by <a class="event-host" href="#">Someone</a> from <a class="event-host" href="#">Somewhere</a>
+                        by <a class="event-host sub-link" href="#">Someone</a> from <a class="event-host sub-link" href="#">Somewhere</a>
                     </p>
                     <!--/.Event host-->
     
