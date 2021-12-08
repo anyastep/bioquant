@@ -24,7 +24,6 @@ body {
 }
 
 /* Set navbar region to full width */
-.region-top-header,
 #block-navbar {
     width: 100%;
 }
