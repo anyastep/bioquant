@@ -12,12 +12,8 @@ body {
     flex-direction: column;
 }
 .layout-main-wrapper {
-
     /* Stretch short content for sticky footer */
     flex: 1 0 auto;
-
-    /* Add space above footer */
-    margin-bottom: 3em;
 }
 .site-footer {
     flex-shrink: 0;
