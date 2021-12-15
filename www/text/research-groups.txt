@@ -65,22 +65,27 @@ Prof. Dr. Rasmus Schröder
 We study actin-myosin macromolecular motor systems using single particle analysis and electron cryo tomography.
 Hosted Groups
 
-Signaling Networks
-ERC DECODE
-Prof. Michael Boutros
-We study cellular signaling networks with genetic / genomic approaches, focusing on Wnt and Wnt-interacting pathways.
+HOSTED GROUPS
 
-Translational Immunotherapy
-PD Dr. Niels Halama
-We develop tissue processing workflows and technologies for applications in solid tumor immunotherapy.
+Signaling and Functional Genomics
+Prof. Dr. Michael Boutros
+We study cellular signaling networks with genetic / genomic approaches, focusing on Wnt and Wnt-interacting pathways.
 
 Health Data Science Unit
 Prof. Roland Eils
 We provide medical informatics solutions to make patient data accessible for clinical research and education.
 
+Translational Immunotherapy
+PD Dr. Niels Halama
+We develop tissue processing workflows and technologies for applications in solid tumor immunotherapy.
+
 Single Molecule Biophysics
 Prof. Mike Heilemann
 We study biomolecule structures using sub-diffraction-limit resolution imaging with single-molecule sensitivity.
+
+Quantitative Biology Statistics
+Dr. Wolfgang Huber
+We develop and apply statistical methods for biotechnologies and then translate them into reusable tools.
 
 Systems Biology of Signal Transduction
 Prof. Ursula Klingmüller
@@ -89,10 +94,9 @@ We elucidate molecular mechanisms that regulate cellular decisions and their imp
 Retroviral and Influenza Virus (IAV) Biology
 Prof. Hans-Georg Kräusslich
 
-
-ERC DECODE
-Prof. Jan Lohmann
-
+Stem Cell Biology
+Prof. Dr. Jan Lohmann
+We study the development of complex stem cells in plants using genetic, genomic and molecular approaches.
 
 Applied Analysis and Modelling in Biosciences
 Prof. Anna Marciniak-Czochra
@@ -102,10 +106,12 @@ Physics of Complex Biosystems
 Prof. Ulrich Schwarz
 We develop a systems-level understanding of cell mechanics and adhesion.
 
+Molecular Mechanisms of Intracellular Trafficking
+Prof. Dr. Vytautė Starkuvienė-Erfle
+We analyse how intracellular trafficking adapts to extracellular signals. Joint projects at Vilnius University and Erfle lab.
+
 ERC DECODE
 Dr. Oliver Stegle
 
-
 ERC INDIGENE
 Prof. Jochen Wittbrodt
- 
