@@ -13,8 +13,17 @@
         color: rgb(222, 227, 234);
         text-decoration-line: none;
     }
-    .footer .btn {
+    .btn-custom {
         font-size: 0.75rem;
+        background-color: rgb(36, 36, 38);
+        border-color: rgb(252, 253, 255);
+    }
+    .btn-custom:hover {
+        color: rgb(36, 36, 38) !important;
+    }
+    .btn-custom:hover,
+    .btn-custom:focus {
+        background-color: rgb(252, 253, 255);
     }
 </style>
 
@@ -42,8 +51,8 @@
             <!--Footer links-->
             <div class="d-flex flex-wrap justify-content-center justify-content-lg-between">
 
-                <div class="px-1"><a href="#">Imprint</a></div>
-                <div class="px-1"><a href="#">Privacy Policy</a></div>
+                <div class="px-1"><a href="https://www.uni-heidelberg.de/en/imprint">Imprint</a></div>
+                <div class="px-1"><a href="https://www.uni-heidelberg.de/en/data-protection-declaration">Privacy Policy</a></div>
                 <div class="px-1"><a href="#">Sitemap</a></div>
                 <div class="px-1"><a href="#">Websupport</a></div>
 
@@ -57,9 +66,9 @@
         <div class="col-lg py-2 d-flex justify-content-center justify-content-lg-end">
 
             <!--Sign in button-->
-            <button class="btn btn-outline-light" type="button">
+            <a class="btn btn-custom" type="button" href="https://www.bioquant.uni-heidelberg.de/intern.html">
                 Sign In
-            </button>
+            </a>
             <!--/.Sign in button-->
 
         </div>
