@@ -33,11 +33,11 @@ body {
 }
 
 #navbar-top {
-  background-color: rgb(var(--grey));
+  background-color: rgba(var(--grey), 0);
 }
 
 #navbar-main {
-  background-color: rgb(var(--grey));
+  background-color: rgba(var(--grey), 0);
 }
 
 a,
