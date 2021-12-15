@@ -1,59 +1,56 @@
-<Hero>
+<HERO>
+Slogan: Welcome to BioQuant
 Title: Center for Quantitative Analysis of Molecular and Cellular Biosystems
-Slogan: Model Base of Life
-Button: Explore Research at Bioquant
+Button: Explore our research
+Attibution: by Nick Kepper
 
-<News>
 NEWS
-ALL NEWS (Link to News page)
 
-<News1>
+<Research Highlight>
 Title: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Date: Month XX, Year
-Read More (Link to blog page)
+Read More
 
-<News2>
+<News 1>
 Title: BioQuant website is relaunching soon!
 Subtitle: We are working very hard to bring you the new BioQuant website. You can still access the old website while this version is under construction.
-Date: November 30, 2021
-Read More (Link to blog page)
+Date: December 20, 2021
+Read More
 
-<News3>
+<News 2>
 Title: Current information on coronavirus guidelines at Heidelberg University
 Subtitle: Find the latest information on corona ordinances, regulations for organizing events or teaching, vaccination opportunities, data collection, and more.
-Date: November 24, 2021
+Date: December 09, 2021
 Read More (https://www.uni-heidelberg.de/de/newsroom/informationen-zum-coronavirus)
 
-<Events>
 EVENTS
-ALL EVENTS (Link to Events page)
 
-<Event1>
-Type: 
+<Event 1> 
 Date: 
+Type: 
 Name: 
 Time: 
 Place: 
 
-<Event2>
-Type: 
+<Event 2>
 Date: 
+Type: 
 Name: 
 Time: 
 Place: 
 
-<Event3>
-Type: 
+<Event 3>
 Date: 
+Type: 
 Name: 
 Time: 
 Place: 
 
 <FOOTER>
-© Copyright Heidelberg University
-Imprint (Link to )
-Privacy Policy (Link to )
-Sitemap (Link to )
-Websupport (Link to )
-SIGN IN (Link to Sign In page)
+Copyright © 2021 Heidelberg University
+Imprint (https://www.uni-heidelberg.de/en/imprint)
+Privacy Policy (https://www.uni-heidelberg.de/en/data-protection-declaration)
+Sitemap (#)
+Websupport (#)
+Sign In (https://www.bioquant.uni-heidelberg.de/intern.html)
