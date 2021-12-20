@@ -93,17 +93,11 @@
         position: relative;
     }
     .hero-text {
-        font-size: 4rem;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .attribution {
-        color: rgb(252, 253, 255);
-        font-size: 0.75rem;
         background-color: rgb(36, 36, 38);
         background-color: rgba(36, 36, 38, 0.3);
+    }
+    .attribution {
+        font-size: 0.75rem;
     }
 </style>
 
@@ -254,28 +248,27 @@
     <!--/.Navigation bar-->
 
     <!--Hero text-->
-    <div class="container hero-text my-4">
+    <div class="container-fluid hero-text position-absolute bottom-0">
 
         <!--Slogan-->
-        <p class="text-start my-5">
+        <h1 class="text-center py-5 px-3">
             Welcome to BioQuant
-        </p>
+        </h1>
         <!--/.Slogan-->
 
         <!--Heading-->
-        <h3 class="text-start">
+        <h4 class="text-center pb-5 px-3">
             Center for Quantitative Analysis of Molecular and Cellular Biosystems
-        </h3>
+        </h4>
         <!--/.Heading-->
+
+        <!--Hero image attribution-->
+        <p class="attribution position-absolute bottom-0 end-0 m-2">by Nick Kepper</p>
+
+        <!--/.Hero image attribution-->
 
     </div>
     <!--/.Hero text-->
-
-    <!--Hero image attribution-->
-    <div class="attribution position-absolute bottom-0 end-0">
-        <p class="m-2">by Nick Kepper</p>
-    </div>
-    <!--/.Hero image attribution-->
 
 </section>
 <!--/.Hero section-->
