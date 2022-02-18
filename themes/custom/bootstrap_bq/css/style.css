@@ -2,7 +2,6 @@
 
 body {
     height: 100%;
-
     /* Custom font */
     font-family: 'Trade Gothic LT Std', sans-serif !important;
 }
@@ -17,6 +16,10 @@ body {
 }
 .site-footer {
     flex-shrink: 0;
+}
+.main-content {
+    /* Add top margin to avoid fixed navbar overlap */
+    margin-top: 129px;
 }
 
 /* Set navbar region to full width */
@@ -42,7 +45,6 @@ body {
     padding: 0;
 }
 .node__content {
-
     margin-top: 0;
 }
 .site-footer,
