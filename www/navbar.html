@@ -1,15 +1,9 @@
 <style type="text/css">
     .navbar {
-        background-color: rgb(222, 227, 234);
+        background-color: rgb(252, 253, 255);
     }
     .navbar-custom {
         padding: 0;
-    }
-    .custom-toggler {
-        color: rgb(36, 36, 38);
-        background-color: rgba(252, 253, 255, 0);
-        outline: none;
-        border: none;
     }
     .nav-menu,
     .nav-menu:hover,
@@ -34,11 +28,14 @@
         position: relative;
         display: inline-block;
     }
+    .home {
+        display: inline-block;
+    }
     .dropdown-menu {
         min-width: 135px;
         display: none;
         position: absolute;
-        background-color: rgb(222, 227, 234);
+        background-color: rgb(252, 253, 255);
         border: none;
         border-top: 1px solid rgb(16, 155, 158);
         border-radius: 0;
@@ -74,114 +71,121 @@
 </style>
 
 <!--Navigation bar-->
-<nav class="navbar navbar-expand-lg navbar-custom">
-    <div class="container mx-auto my-2">
-
-        <!--Main logo-->
-        <a class="navbar-brand py-2" href="http://webtest.bioquant.uni-heidelberg.de/">
-            <img src="/sites/default/files/logo_bq.svg" alt="BioQuant logo">
-        </a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+    <div class="container my-4">
 
         <!--Collapse button-->
-        <button class="custom-toggler collapsed d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <!--Collapsible content-->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
+            
+            <div class="offcanvas-header">
+                <a class="offcanvas-title" id="offcanvasLabel" href="http://webtest.bioquant.uni-heidelberg.de/">
+                    <img src="/sites/default/files/logo_bq_h.svg" alt="BioQuant logo">
+                </a>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
 
             <!--Links-->
-            <ul class="navbar-nav mx-auto">
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
 
-                <!--Link 1-->
-                <div class="dropdown">
+                    <!--Home-->
+                    <div class="home">
+                        <button type="button" class="btn nav-menu py-0 pe-5">
+                            <a class="nav-link px-0 mb-0" href="http://webtest.bioquant.uni-heidelberg.de/">Home</a>
+                        </button>
+                    </div>
+                    
+                    <!--Link 1-->
+                    <div class="dropdown">
+    
+                        <!--Heading-->
+                        <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
+                            <p class="nav-link px-0 mb-0">Research</p>
+                        </button>
+    
+                        <!--Categories-->
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/groups">Research Groups</a></li>
+                          <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/facilities">Core Facilities</a></li>
+                          <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/publications">Publications</a></li>
+                          <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/careers">Careers</a></li>
+                        </ul>
+    
+                    </div> 
+    
+                    <!--Link 2-->
+                    <div class="dropdown">
+    
+                        <!--Heading-->
+                        <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
+                            <p class="nav-link px-0 mb-0">Education</p>
+                        </button>
+    
+                        <!--Categories-->
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="http://www.bioquant.uni-heidelberg.de/education.html">Master Program</a></li>
+                          <li><a class="dropdown-item" href="http://www.bioquant.uni-heidelberg.de/education.html">PhD Program</a></li>
+                        </ul>
+    
+                    </div>
+    
+                    <!--Link 3-->
+                    <div class="dropdown">
+    
+                        <!--Heading-->
+                        <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
+                            <p class="nav-link px-0 mb-0">Resources</p>
+                        </button>
+    
+                        <!--Categories-->
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="https://www.bioquant.uni-heidelberg.de/open-positions.html">Jobs</a></li>
+                          <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/news">News</a></li>
+                          <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/events">Events</a></li>
+                        </ul>
+    
+                    </div>
+    
+                    <!--Link 4-->
+                    <div class="dropdown">
+    
+                        <!--Heading-->
+                        <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
+                            <p class="nav-link px-0 mb-0">About</p>
+                        </button>
+    
+                        <!--Categories-->
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/institute">Institute</a></li>
+                          <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/organization">Organization</a></li>
+                          <li><a class="dropdown-item" href="https://www.bioquant.uni-heidelberg.de/no_cache/about-us/bioquant-directory.html">Staff Directory</a></li>
+                          <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/contact">Contact</a></li>
+                        </ul>
+    
+                    </div>
+    
+                </ul> 
+            </div>
 
-                    <!--Heading-->
-                    <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
-                        <p class="nav-link px-0 mb-0">Research</p>
-                    </button>
+        </div>
 
-                    <!--Categories-->
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/groups">Research Groups</a></li>
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/facilities">Core Facilities</a></li>
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/publications">Publications</a></li>
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/careers">Careers</a></li>
-                    </ul>
+        <!--Logos-->
+        <div class="ms-auto">
 
-                </div> 
-
-                <!--Link 2-->
-                <div class="dropdown">
-
-                    <!--Heading-->
-                    <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
-                        <p class="nav-link px-0 mb-0">Education</p>
-                    </button>
-
-                    <!--Categories-->
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/master">Master Program</a></li>
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/phd">PhD Program</a></li>
-                    </ul>
-
-                </div>
-
-                <!--Link 3-->
-                <div class="dropdown">
-
-                    <!--Heading-->
-                    <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
-                        <p class="nav-link px-0 mb-0">Resources</p>
-                    </button>
-
-                    <!--Categories-->
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/jobs">Jobs</a></li>
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/news">News</a></li>
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/events">Events</a></li>
-                    </ul>
-
-                </div>
-
-                <!--Link 4-->
-                <div class="dropdown">
-
-                    <!--Heading-->
-                    <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
-                        <p class="nav-link px-0 mb-0">About</p>
-                    </button>
-
-                    <!--Categories-->
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/institute">Institute</a></li>
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/organization">Organization</a></li>
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/staff">Staff Directory</a></li>
-                      <li><a class="dropdown-item" href="http://webtest.bioquant.uni-heidelberg.de/contact">Contact</a></li>
-                    </ul>
-
-                </div>
-
-                <!--Link 5-->
-                <div class="dropdown d-lg-none">
-
-                    <!--Heading-->
-                    <button type="button" class="btn nav-menu dropdown-toggle pt-0 pe-5" data-bs-toggle="dropdown">
-                        <a class="nav-link px-0" href="https://www.uni-heidelberg.de/"><strong>Universität Heidelberg</strong></a>
-                    </button>
-
-                </div>
-
-            </ul>
+            <!--Main logo-->
+            <a class="navbar-brand" href="http://webtest.bioquant.uni-heidelberg.de/">
+                <img src="/sites/default/files/logo_bq.svg" alt="BioQuant logo">
+            </a>
 
             <!--Uni logo-->
-            <div class="dropdown d-none d-lg-block">
-                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
-                    <a class="ms-auto" href="https://www.uni-heidelberg.de/">
-                        <img alt="Heidelberg University" src="/sites/default/files/logo_hd.svg">
-                    </a>
-                </button>
-            </div>
+            <a href="https://www.uni-heidelberg.de/">
+                <img alt="Heidelberg University" src="/sites/default/files/logo_hd.svg">
+            </a>
 
         </div>
 
