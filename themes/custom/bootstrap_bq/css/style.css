@@ -19,7 +19,8 @@ body {
 }
 .main-content {
     /* Add top margin to avoid fixed navbar overlap */
-    margin-top: 129px;
+    margin-top: 129.54px;
+    padding: 0;
 }
 
 /* Set navbar region to full width */
@@ -29,14 +30,27 @@ body {
 }
 
 /* Set max page width */
-@media (max-width: 1399.98px) {
+@media (max-width: 1439.98px) {
     .container {
         max-width: 960px;
     }
 }
-@media (min-width: 1400px) {
+/* When the width is between 1440px and 1600px */
+@media (max-width: 1599.98px) and (min-width: 1440px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+/* When the width is between 1600px and 1920px */
+@media (max-width: 1919.99px) and (min-width: 1600px) {
     .container {
         max-width: 1320px;
+    }
+}
+/* When the width is above 1920px */
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1680px;
     }
 }
 
