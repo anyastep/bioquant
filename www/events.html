@@ -1,0 +1,362 @@
+<style type="text/css">
+    .section-title {
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .section-link {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+    .section-link:hover {
+        text-decoration: none;
+    }
+    .block-link {
+        position: relative;
+    }
+    .main-link {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .sub-link {
+        position: relative;
+        z-index: 100;
+    }
+    .event {
+        height: 100%;
+        background-color: rgb(222, 227, 234);
+    }   
+    .event-img {
+        background-color: rgb(222, 227, 234);
+        background-size: cover;
+        min-height: 100%;
+        position: relative;
+        transition: 0.3s ease;
+    }
+    .img-1 {
+        background-image: url(/sites/default/files/2021-12/event-img-1.png);
+    }
+    .img-2 {
+        background-image: url(/sites/default/files/2021-12/event-img-2.png);
+    }
+    .img-3 {
+        background-image: url(/sites/default/files/2021-12/event-img-3.png);
+    }
+    .block-link:hover .event-img {
+        opacity: 0.7;
+    }
+    .event-overlay {
+        background-color: rgb(16, 155, 158);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .event-date {
+        text-align: center;
+        color: rgb(252, 253, 255);
+    }
+    .event-month,
+    .event-year {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+    .event-day {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    .event-type {
+        color: rgb(16, 155, 158);
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        margin-top: 1rem;
+    }
+    .event-title {
+        color: rgb(36, 36, 38);
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+    .event-title:hover {
+        color: rgb(16, 155, 158);
+        text-decoration: none;
+    }
+    .event-host {
+        color: rgb(36, 36, 38);
+        text-decoration: none;
+    }
+    .event-host:hover {
+        color: rgb(16, 155, 158);
+        text-decoration: none;
+    }
+    .event-info {
+        font-size: 0.875rem;
+    }
+    .event-icon {
+        color: rgb(16, 155, 158);
+    }
+</style>
+
+<!--Events section-->
+<section>
+    <div class="container py-5">
+
+        <!--Section title-->
+        <div class="d-flex justify-content-between align-items-center mt-0 mb-4">
+
+            <div class="section-title pb-3">Events</div>
+            <a class="section-link pb-3" href="http://webtest.bioquant.uni-heidelberg.de/events">All events</a>
+
+        </div>
+
+        <!--Event 1-->
+        <div class="container event block-link px-0 mt-4">
+            <div class="row mx-auto">
+
+                <!--Event image-->
+                <div class="col-3 event-img img-1 px-0">
+    
+                    <!--Event image overlay-->
+                    <div class="event-overlay">
+
+                        <!--Event date-->
+                        <div class="container event-date p-3">
+
+                            <p class="event-month">Jan</p>
+                            <p class="event-day">01</p>
+                            <p class="event-year">2022</p>
+
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <!--Text-->
+                <div class="col-9 px-5 py-4">
+    
+                    <!--Event type-->
+                    <p class="event-type">
+                        Bioquant Seminar
+                    </p>
+    
+                    <!--Event title-->
+                    <p>
+                        <a class="event-title" href="#">
+                            <span class="main-link">&nbsp;</span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl.
+                        </a>
+                    </p>
+    
+                    <!--Event host-->
+                    <p>
+                        by <a class="event-host sub-link" href="#">Someone</a> from <a class="event-host sub-link" href="#">Somewhere</a>
+                    </p>
+    
+                    <!--Event info-->
+                    <div class="row">
+    
+                        <!--Event time-->
+                        <div class="col-md-4">   
+                            <p class="event-info">
+    
+                                <!--Clock icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill event-icon" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                </svg>
+    
+                                16:00 - 18:00
+    
+                            </p>    
+                        </div>
+    
+                        <!--Event location-->
+                        <div class="col">    
+                            <p class="event-info">
+    
+                                <!--Pin icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill event-icon" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+    
+                                SR041 & Zoom
+    
+                            </p>    
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <!--Event 2-->
+        <div class="container event block-link px-0 mt-4">
+            <div class="row mx-auto">
+
+                <!--Event image-->
+                <div class="col-3 event-img img-2 px-0">
+    
+                    <!--Event image overlay-->
+                    <div class="event-overlay">
+
+                        <!--Event date-->
+                        <div class="container event-date p-3">
+
+                            <p class="event-month">Jan</p>
+                            <p class="event-day">01</p>
+                            <p class="event-year">2022</p>
+
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <!--Text-->
+                <div class="col-9 px-5 py-4">
+    
+                    <!--Event type-->
+                    <p class="event-type">
+                        Bioquant Seminar
+                    </p>
+    
+                    <!--Event title-->
+                    <p>
+                        <a class="event-title" href="#">
+                            <span class="main-link">&nbsp;</span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl.
+                        </a>
+                    </p>
+    
+                    <!--Event host-->
+                    <p>
+                        by <a class="event-host sub-link" href="#">Someone</a> from <a class="event-host sub-link" href="#">Somewhere</a>
+                    </p>
+    
+                    <!--Event info-->
+                    <div class="row">
+    
+                        <!--Event time-->
+                        <div class="col-md-4">    
+                            <p class="event-info">
+    
+                                <!--Clock icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill event-icon" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                </svg>
+    
+                                16:00 - 18:00
+    
+                            </p>   
+                        </div>
+    
+                        <!--Event location-->
+                        <div class="col">    
+                            <p class="event-info">
+    
+                                <!--Pin icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill event-icon" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+    
+                                SR041 & Zoom
+    
+                            </p>    
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <!--Event 3-->
+        <div class="container event block-link px-0 mt-4">
+            <div class="row mx-auto">
+
+                <!--Event image-->
+                <div class="col-3 event-img img-3 px-0">
+    
+                    <!--Event image overlay-->
+                    <div class="event-overlay">
+
+                        <!--Event date-->
+                        <div class="container event-date p-3">
+
+                            <p class="event-month">Jan</p>
+                            <p class="event-day">01</p>
+                            <p class="event-year">2022</p>
+
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <!--Text-->
+                <div class="col-9 px-5 py-4">
+    
+                    <!--Event type-->
+                    <p class="event-type">
+                        Bioquant Seminar
+                    </p>
+    
+                    <!--Event title-->
+                    <p>
+                        <a class="event-title" href="#">
+                            <span class="main-link">&nbsp;</span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl.
+                        </a>
+                    </p>
+    
+                    <!--Event host-->
+                    <p>
+                        by <a class="event-host sub-link" href="#">Someone</a> from <a class="event-host sub-link" href="#">Somewhere</a>
+                    </p>
+    
+                    <!--Event info-->
+                    <div class="row">
+    
+                        <!--Event time-->
+                        <div class="col-md-4">    
+                            <p class="event-info">
+    
+                                <!--Clock icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill event-icon" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                </svg>
+    
+                                16:00 - 18:00
+    
+                            </p>    
+                        </div>
+    
+                        <!--Event location-->
+                        <div class="col">    
+                            <p class="event-info">
+    
+                                <!--Pin icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill event-icon" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+    
+                                SR041 & Zoom
+    
+                            </p>    
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+</section>

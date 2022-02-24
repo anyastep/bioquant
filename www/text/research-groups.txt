@@ -1,0 +1,117 @@
+BIOQUANT GROUPS
+
+Complex Adaptive Traits
+Dr. Ilka Bischofs-Pfeifer
+We use tools from molecular biology, microscopy and mathematical modeling to control and engineer CATs.
+
+Membrane Biology of Viral Infection
+Dr. Petr Chlanda
+We are studying how viruses interact with cellular membranes and lipids during infection.
+
+High-content Analysis of the Cell
+Dr. Holger Erfle
+We design, develop and apply novel technologies for high-content screening and analysis.
+
+Tissue Imaging and Analysis Center
+Prof. Dr. Niels Grabe
+We perform quantitative analysis and modeling of tissues, with emphasis on clinically relevant research projects.
+
+Modeling Infection and Immunity
+Dr. Frederik Graw
+We combine mathematical models and experimental data to study infection and immune processes within a host.
+
+Virus-Host Interactions
+Prof. Dr. Dirk Grimm
+We develop gene therapies by engineering non-pathogenic Adeno-associated viruses.
+
+Biomedical Genomics
+Dr. Carl Herrmann
+We work on gene (de)regulation in diseases and methods for integration of large scale genomics datasets.
+
+Modeling of Biological Processes
+Prof. Dr. Ursula Kummer
+We develop methods for the simulation, modeling and analysis of biochemical networks.
+
+Single-cell Open Lab
+Dr. Jan-Philipp Mallm
+We focus on providing automated, high-throughput and multi-omic readouts tailored to cancer research.
+
+Biological Information Processing
+Dr. Jürgen Pahle
+We analyse how living systems take up, process, store and transfer information.
+
+Chromatin Networks
+Prof. Dr. Karsten Rippe
+We analyze the dynamic organization of the (epi)genome in relation to gene expression and functional cell states.
+
+Biomedical Computer Vision
+PD Dr. Karl Rohr
+We develop methods for computer-based analysis of biological and medical images.
+
+Protein Evolution
+Prof. Dr. Rob Russell
+We investigate all aspects of protein structure, function and evolution, focusing on molecular interactions.
+
+Systems Biomedicine
+Prof. Dr. Julio Saez-Rodriguez
+We study signaling network deregulation in various diseases by integrating multi-omics data into mathematical models.
+
+Methods in Computational Systems Biology
+Dr. Sven Sahle
+We develop computational methods and software for modeling and analysis of biochemical reaction networks.
+
+Cryo-Electron Microscopy
+Prof. Dr. Rasmus Schröder
+We study actin-myosin macromolecular motor systems using single particle analysis and electron cryo tomography.
+Hosted Groups
+
+HOSTED GROUPS
+
+Signaling and Functional Genomics
+Prof. Dr. Michael Boutros
+We study cellular signaling networks with genetic / genomic approaches, focusing on Wnt and Wnt-interacting pathways.
+
+Health Data Science Unit
+Prof. Roland Eils
+We provide medical informatics solutions to make patient data accessible for clinical research and education.
+
+Translational Immunotherapy
+PD Dr. Niels Halama
+We develop tissue processing workflows and technologies for applications in solid tumor immunotherapy.
+
+Single Molecule Biophysics
+Prof. Mike Heilemann
+We study biomolecule structures using sub-diffraction-limit resolution imaging with single-molecule sensitivity.
+
+Quantitative Biology Statistics
+Dr. Wolfgang Huber
+We develop and apply statistical methods for biotechnologies and then translate them into reusable tools.
+
+Systems Biology of Signal Transduction
+Prof. Ursula Klingmüller
+We elucidate molecular mechanisms that regulate cellular decisions and their impact at the tissue- and organ-levels.
+
+Retroviral and Influenza Virus (IAV) Biology
+Prof. Hans-Georg Kräusslich
+
+Stem Cell Biology
+Prof. Dr. Jan Lohmann
+We study the development of complex stem cells in plants using genetic, genomic and molecular approaches.
+
+Applied Analysis and Modelling in Biosciences
+Prof. Anna Marciniak-Czochra
+We use mathematical models to analyze the dynamics of structure formation and self-organisation in cell systems.
+
+Physics of Complex Biosystems
+Prof. Ulrich Schwarz
+We develop a systems-level understanding of cell mechanics and adhesion.
+
+Molecular Mechanisms of Intracellular Trafficking
+Prof. Dr. Vytautė Starkuvienė-Erfle
+We analyse how intracellular trafficking adapts to extracellular signals. Joint projects at Vilnius University and Erfle lab.
+
+ERC DECODE
+Dr. Oliver Stegle
+
+ERC INDIGENE
+Prof. Jochen Wittbrodt

@@ -1,0 +1,186 @@
+<style type="text/css">
+    .contact {
+        background-color: #dee3ea;
+    }
+    .section-title {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .border:hover {
+        border: 1px solid #109e9b !important;
+        box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.1);
+    }
+    .contact-box {
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+        background-color: #fcfdff;
+        border-color: #fcfdff;
+        color: #242426;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        display: block;
+        justify-content: center;
+    }
+    .contact-title {
+        font-size: 1.5rem;
+    }
+    .email {
+        -ms-user-select: None;
+        -moz-user-select: None;
+        -webkit-user-select: None;
+        user-select: None; 
+    }
+    .map {
+        width: 100%;
+    }
+    .map-img {
+        width: 100%;
+        height: auto;
+        margin-bottom:0;
+    }
+    .directions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .direction-box {
+        background-color: #dee3ea;
+        border-color: #fcfdff;
+        overflow: hidden;
+        text-align: center;
+    }
+    .box-title {
+        color: #109e9b;
+        text-transform: uppercase;
+    }
+    .direction-title {
+        font-size: 1.25rem;
+    }
+    @media only screen and (max-width: 913px) {
+        .description{
+            margin-top: 1.5rem;
+            min-height: 200px;
+        }
+    }
+</style>
+
+<!--Contact section-->
+<section class="contact">
+    <div class="container py-5">
+
+        <!--Section title-->
+        <div class="section-title pb-3">Contact</div>
+        
+        <!--Text boxes-->
+        <div class="row g-4 py-4 justify-content-between">
+
+            <!--Contact 1-->
+            <div class="col-sm-12 col-md-6">
+                <div class="border px-0">
+                    <div class="contact-box py-4">
+
+                        <p class="contact-title mt-2">
+                            BioQuant Administration
+                        </p>                       
+                        <p class="email">
+                            <svg class="bi bi-envelope-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path> </svg>
+                            geschaeftsstelle@bioquant.uni-heidelberg.de
+                        </p>                      
+                        <p>
+                            <svg class="bi bi-telephone-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" fill-rule="evenodd"></path> </svg>
+                            +49 (0)6221 54-51202
+                        </p>
+                        <p>
+                            <svg class="bi bi-house-door-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"></path> </svg>
+                            INF 267 Room 743
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Contact 2-->
+            <div class="col-sm-12 col-md-6">
+                <div class="border px-0">
+                    <div class="contact-box py-4">
+
+                        <p class="contact-title mt-2">
+                            BioQuant IT
+                        </p>
+                        <p class="email"><svg class="bi bi-envelope-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path> </svg> 
+                            support-it@bioquant.uni-heidelberg.de
+                        </p>
+                        <p><svg class="bi bi-telephone-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" fill-rule="evenodd"></path> </svg> 
+                            +49 (0)6221 54-51300
+                        </p>                       
+                        <p><svg class="bi bi-house-door-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"></path> </svg> 
+                            INF 267 Room 062
+                        </p>
+                    
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+</section>
+
+<!--Directions section-->
+<section class="p-0">
+    <div class="container py-5">
+
+        <!--Section title-->
+        <div class="section-title pb-3">How to find us</div>
+        
+        <div class="row g-4 py-4">
+
+            <!--Campus map-->
+            <div class="col-sm-12 col-lg-6">
+                <div class="map border">
+                    <img alt="lageplan" class="map-img" data-entity-type="file" data-entity-uuid="20cd9802-47d8-40d7-a3b0-ccba14321388" src="/sites/default/files/inline-images/lageplan_bioquant_newgreen_500px-min.png" />
+                </div>
+            </div>
+
+            <!--Text boxes-->
+            <div class="col-sm-12 col-lg-6 directions">
+
+                <!--Address-->
+                <div class="border mb-4">
+                    <div class="direction-box py-4">
+
+                        <p class="box-title mt-2">Address</p>  
+    
+                        <p class="direction-title">BioQuant</p>
+                        <p>
+                            Ruprecht-Karls-Universität Heidelberg<br />
+                            Im Neuenheimer Feld 267<br />
+                            69120 Heidelberg
+                        </p>
+    
+                    </div>
+                </div>
+
+                <!--Directions-->
+                <div class="border">
+                    <div class="direction-box py-4">
+
+                        <p class="box-title mt-2">Public Transport</p>
+    
+                        <p class="direction-title mb-0">from Heidelberg Hbf</p>
+                        <p>Tram Nr. 24 or 21 to Bunsengymnasium</p>
+    
+                        <p class="direction-title mb-0">from Bismarckplatz</p>
+                        <p>Bus Nr. 31 or 29 to Bunsengymnasium</p>
+    
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+</section>

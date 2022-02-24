@@ -1,0 +1,72 @@
+/* @file Subtheme specific CSS */
+
+body {
+    height: 100%;
+    /* Custom font */
+    font-family: 'Trade Gothic LT Std', sans-serif !important;
+}
+#page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.layout-main-wrapper {
+    /* Stretch short content for sticky footer */
+    flex: 1 0 auto;
+}
+.site-footer {
+    flex-shrink: 0;
+}
+.main-content {
+    /* Add top margin to avoid fixed navbar overlap */
+    margin-top: 129.54px;
+    padding: 0;
+}
+
+/* Set navbar region to full width */
+#block-navbar,
+#block-header-main {
+    width: 100%;
+}
+
+/* Set max page width */
+@media (max-width: 1439.98px) {
+    .container {
+        max-width: 960px;
+    }
+}
+/* When the width is between 1440px and 1600px */
+@media (max-width: 1599.98px) and (min-width: 1440px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+/* When the width is between 1600px and 1920px */
+@media (max-width: 1919.99px) and (min-width: 1600px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+/* When the width is above 1920px */
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1680px;
+    }
+}
+
+/* Remove region margins and padding */
+#navbar-main {
+    padding: 0;
+}
+.node__content {
+    margin-top: 0;
+}
+.site-footer,
+.site-footer .container-fluid,
+.site-footer__bottom,
+.site-footer__bottom .region,
+.site-footer__bottom .block,
+.site-footer__bottom .content {
+    padding: 0;
+    margin: 0;
+}
