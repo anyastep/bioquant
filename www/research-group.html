@@ -1,92 +1,148 @@
 <style type="text/css">
-    .main-content {
-        padding: 0;
-    }
-    .section-title {
-        text-transform: uppercase;
-        font-size: 2rem;
-    }
-    .institute .btn {
+    .group-header {
         color: rgb(252, 253, 255);
-        background-color: rgb(138, 27, 106);
-        padding: 1em;
-        position: relative;
-        overflow: hidden;
-        z-index: 9;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0.6), rgba(0, 0, 0, 0.6)), url('/sites/default/files/2022-02/sample-1.jpg');
+        background-color: rgb(36, 36, 38);
+        height: 40vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
-    .institute .btn:hover {
-        color: rgb(138, 27, 106);
-        color: rgba(36, 36, 38, 0.7);
+    .collaboration {
+        color: rgb(252, 253, 255);
+        background-color: rgb(16, 155, 158);
+    }
+    .collaboration .btn {
+        color: rgb(252, 253, 255);
+        background-color: rgb(16, 155, 158);
+        border-color: rgb(252, 253, 255);
+    }
+    .collaboration .btn:hover,
+    .collaboration .btn:focus {
+        color: rgb(36, 36, 38) !important;
         background-color: rgb(252, 253, 255);
-        text-decoration: none;
+    }
+    .picture {
+        background-image: url(/sites/default/files/2022-02/sample-2.jpg);
+        background-color: rgb(36, 36, 38);
+        background-size: cover;
+        height: 80vh;
+        position: relative;
     }
 </style>
 
-<!--About us section-->
-<section class="institute">
+<!--Header-->
+<div class="group-header p-5 text-center">
+    <div class="container-fluid py-3 align-self-center">
+        <h1 class="display-5 fw-bold my-3">Molecular and Cellular Biology</h1>
+        <h2 class="my-3 pt-3">Sample Group</h2>
+      </div>
+</div>
 
-    <!--About us text-->
-    <div class="container py-5">
+<!--About-->
+<div class="container py-5">
+    <div class="row g-4 justify-content-between">
 
-        <!--Section title-->
-        <div class="section-title pb-3">
-            About Us
-        </div>
-
-        <p>
-            BioQuant is the Center for Quantitative Analysis of Molecular and Cellular Biosystems at <a href="https://www.uni-heidelberg.de/">Heidelberg University</a>. Founded in 2007, our institute integrates the expertise of theoretical and experimental research groups to understand molecular and cellular biosystems. We conduct research at the interface between life sciences, mathematics, computer sciences, biomedicine, physics, and chemistry. Furthermore, our efforts are dedicated to education and technology development in quantitative biology. 
-        </p>
-
-        <p>
-            Mathematical modeling in combination with high-throughput data and spatially and temporally high-resolution microscopy was used here early on to elucidate cell biological mechanisms. The focus has always been on virus-host interaction, intracellular information processing and molecular biomechanics. Significant new methodological developments, e.g. in the fields of single cell sequencing, microscopy, modeling and bioinformatics, have also shaped and continue to shape BioQuant's mission. The newly founded State Institute for Bioinformatics Infrastructure Baden-Württemberg (LIBIS) is now also located at BioQuant.
-        </p>
-
-        <h4 class="pt-3">
-            Teaching Program for Systems Biology
-        </h4>
-
-        <div class="row py-3">
-
-            <div class="col">
-                <img src="/sites/default/files/2021-12/DSC_4357.jpg" class="img-fluid" alt="People reading">
-            </div>
-
-            <div class="col">
-
-                <p>
-                    All teaching activities related to systems biology at Heidelberg University are carried out at BioQuant. A major curriculum for systems biology was established in 2008 for the international Master’s program in Molecular Biosciences. The program covers fundamental topics in bioinformatics, computational analysis, network reconstruction, and dynamic pathway analysis as well as multi-scale modeling.
-                </p>
-                <p>
-                    Systems Biology students at Heidelberg University profit from small classes and individual mentoring. Lectures provide a theoretical foundation, tutorials teach problem-solving skills. Lab 
-rotations as well as master´s thesis are performed within the research groups of the teaching faculty. Thus, from an early stage on, students are integrated into cutting-edge systems biology research projects.
-                </p>
-
-            </div>
-
-        </div>
-
-        <div class="row py-3">
-
-            <div class="col">
-
-                <p>
-                    BioQuant’s remarkable architecture ideally promotes scientific communication and interdisciplinary research at the interface between mathematics, experimental life sciences, and technology development & application. Currently, 30 theoretical and experimental research groups are affiliated with BioQuant. Their research activities cover multiple aspects of systems biology and focus on cellular processes with an emphasis on medically relevant topics e.g. gene regulation & repair, cellular signaling, immune biology, cell mechanics & adhesion, and cancer biology.
-                </p>
-
-                <div class="d-flex justify-content-start py-2">
-                    <a href="http://webtest.bioquant.uni-heidelberg.de/groups" class="btn btn-outline-secondary col-lg-6">
-                        Explore our research
+        <!--Navigation-->
+        <div class="d-flex flex-column flex-shrink-0 p-3" style="width: 280px;">
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="page">
+                        Home
                     </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        Research
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        People
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        Publications
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        Teaching
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        Open Positions
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-sm-12 col-lg-8">
+
+            <!--Mission-->
+            <div class="misson container p-3">
+                <h4 class="py-3">
+                    Duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget.
+                </h4>
+                <p>
+                    Condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.
+                </p>
+            </div>
+
+            <hr>
+
+            <!--Projects-->
+            <h3 class="p-3">Our projects</h3>
+
+            <div class="row row-cols-1 g-4 p-3">
+
+                <div class="card mb-3 px-0">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/sites/default/files/2022-02/sample-2.jpg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Project title</h5>
+                                <p class="card-text">Condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis.</p>
+                                <p class="card-text"><small class="text-muted">Additional information</small></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-            </div>     
-            
-            <div class="col">
-                <img src="/sites/default/files/2021-12/DSC_4297.jpg" class="img-fluid" alt="People chatting">
+                <div class="card mb-3 px-0">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/sites/default/files/2022-02/sample-2.jpg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Project title</h5>
+                                <p class="card-text">Condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis.</p>
+                                <p class="card-text"><small class="text-muted">Additional information</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
+            <!--Collaboration-->
+            <div class="collaboration p-3 my-3 text-center">
+                <div class="container py-3 align-self-center">
+                    <h5 class="pb-3">Find out more about our collaborations</h5>
+                    <button class="btn" type="button">Partners & collaborators</button>
+                </div>
+            </div>
+            
         </div>
-
     </div>
-
-</section>
+</div>
