@@ -1,11 +1,12 @@
 <style type="text/css">
     #btn-scroll-to-top {
-        display: none;
         position: fixed;
         bottom: 1rem;
         right: 1rem;
         z-index: 99;
         color: rgb(16, 158, 155);
+        opacity: 0;
+        transition: opacity 0.4s ease-in-out;
     }
     #btn-scroll-to-top:hover,
     #btn-scroll-to-top:focus,
@@ -33,9 +34,9 @@
             document.body.scrollTop > 512 ||
             document.documentElement.scrollTop > 512
         ) {
-            mybutton.style.display = "block";
+            mybutton.style.opacity = "1";
         } else {
-            mybutton.style.display = "none";
+            mybutton.style.opacity = "0";
         }
     }
     mybutton.addEventListener("click", backToTop);
