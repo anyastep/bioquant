@@ -1,7 +1,4 @@
 <style type="text/css">
-    .contact {
-        background-color: #dee3ea;
-    }
     .section-title {
         font-size: 2rem;
         text-transform: uppercase;
@@ -14,8 +11,8 @@
         height: 100%;
         overflow: hidden;
         width: 100%;
-        background-color: #fcfdff;
-        border-color: #fcfdff;
+        background-color: #dee3ea;
+        border-color: #dee3ea;
         color: #242426;
         display: flex;
         flex-wrap: wrap;
@@ -32,6 +29,9 @@
         -webkit-user-select: None;
         user-select: None; 
     }
+    .location {
+        background-color: #dee3ea;
+    }
     .map {
         width: 100%;
     }
@@ -46,7 +46,7 @@
         justify-content: space-between;
     }
     .direction-box {
-        background-color: #dee3ea;
+        background-color: #fcfdff;
         border-color: #fcfdff;
         overflow: hidden;
         text-align: center;
@@ -54,9 +54,6 @@
     .box-title {
         color: #109e9b;
         text-transform: uppercase;
-    }
-    .direction-title {
-        font-size: 1.25rem;
     }
     @media only screen and (max-width: 913px) {
         .description{
@@ -129,7 +126,7 @@
 </section>
 
 <!--Directions section-->
-<section class="p-0">
+<section class="location full-width">
     <div class="container py-5">
 
         <!--Section title-->
@@ -137,47 +134,42 @@
         
         <div class="row g-4 py-4">
 
-            <!--Campus map-->
-            <div class="col-sm-12 col-lg-6">
-                <div class="map border">
-                    <img alt="lageplan" class="map-img" data-entity-type="file" data-entity-uuid="20cd9802-47d8-40d7-a3b0-ccba14321388" src="/sites/default/files/inline-images/lageplan_bioquant_newgreen_500px-min.png" />
-                </div>
-            </div>
-
             <!--Text boxes-->
-            <div class="col-sm-12 col-lg-6 directions">
+            <div class="col-sm-12 col-lg-7">
 
                 <!--Address-->
-                <div class="border mb-4">
-                    <div class="direction-box py-4">
+                <div class="direction-box py-4 mb-3">
 
-                        <p class="box-title mt-2">Address</p>  
-    
-                        <p class="direction-title">BioQuant</p>
-                        <p>
-                            Ruprecht-Karls-Universität Heidelberg<br />
-                            Im Neuenheimer Feld 267<br />
-                            69120 Heidelberg
-                        </p>
-    
-                    </div>
+                    <p class="box-title mt-2">Address</p>  
+
+                    <p>
+                        BioQuant<br />
+                        Im Neuenheimer Feld 267<br />
+                        69120 Heidelberg
+                    </p>
+
                 </div>
 
                 <!--Directions-->
-                <div class="border">
-                    <div class="direction-box py-4">
+                <div class="direction-box py-4">
 
-                        <p class="box-title mt-2">Public Transport</p>
-    
-                        <p class="direction-title mb-0">from Heidelberg Hbf</p>
-                        <p>Tram Nr. 24 or 21 to Bunsengymnasium</p>
-    
-                        <p class="direction-title mb-0">from Bismarckplatz</p>
-                        <p>Bus Nr. 31 or 29 to Bunsengymnasium</p>
-    
-                    </div>
+                    <p class="box-title mt-2">Public Transport</p>
+
+                    <p class="mb-0">from Heidelberg Hbf</p>
+                    <p>Tram No. 24 or 21 to Bunsengymnasium</p>
+
+                    <p class="mb-0">from Bismarckplatz</p>
+                    <p>Bus No. 31 or 29 to Bunsengymnasium</p>
+
                 </div>
                 
+            </div>
+
+            <!--Campus map-->
+            <div class="col-sm-12 col-lg-5">
+                <div class="map">
+                    <img alt="lageplan" class="map-img" data-entity-type="file" data-entity-uuid="20cd9802-47d8-40d7-a3b0-ccba14321388" src="/sites/default/files/inline-images/lageplan_bioquant_newgreen_500px-min.png" />
+                </div>
             </div>
 
         </div>
