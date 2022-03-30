@@ -4,6 +4,7 @@ body {
     height: 100%;
     /* Custom font */
     font-family: 'Trade Gothic LT Std', sans-serif !important;
+    overflow-x: hidden;
 }
 #page {
     height: 100vh;
@@ -52,6 +53,16 @@ body {
     .container {
         max-width: 1680px;
     }
+}
+
+/* Add an option for full-width container */
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 /* Remove region margins and padding */
