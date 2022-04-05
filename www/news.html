@@ -1,85 +1,38 @@
 <style type="text/css">
-    .section-title {
-        text-transform: uppercase;
-        font-size: 2rem;
-    }
-    .section-link {
-        text-transform: uppercase;
-        text-decoration: none;
-        font-size: 1.25rem;
-    }
-    .section-link:hover {
-        text-decoration: none;
-    }
     .news {
         background-color: rgb(222, 227, 234);
-        text-align: justify;
     }
-    .block-link {
-        position: relative;
+    .section-title {
+        font-size: 2rem;
     }
-    .main-link {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1;
-    }
-    .sub-link {
-        position: relative;
-        z-index: 100;
-    }
-    .highlight {
-        height: 100%;
-        color: rgb(252, 253, 255);
-        background-color: rgb(36, 36, 38);
-    }
-    .highlight-img {
-        background-image: url(/sites/default/files/2021-12/highlight.png);
-        background-color: rgb(36, 36, 38);
-        background-size: cover;
-        min-height: 100%;
-        position: relative;
-        transition: 0.3s ease;
-    }
-    .block-link:hover .highlight-img {
-        opacity: 0.7;
-    }
-    .highlight-title {
-        font-size: 1.375rem;
-        color: rgb(252, 253, 255);
-        text-decoration: none;
-    }
-    .highlight-title:hover {
-        color: rgb(16, 155, 158);
-        text-decoration: none;
-    }
-    .highlight-link {
-        color: rgb(16, 155, 158);
-        text-decoration: none;
-    }
-    .highlight-link:hover {
-        color: rgb(222, 227, 234);
-        color: rgba(222, 227, 234, 0.7);
-        text-decoration: none;
-    }
-    .news-text {
+    .accordion {
         color: rgb(36, 36, 38);
-        background-color: rgb(252, 253, 255);
-        height: 100%;
+        background-color: #fcfdff;
+        border-color: rgb(16, 155, 158);
+        box-shadow: none;
+    }
+    .accordion-button {
+        color: rgb(36, 36, 38);
+        background-color: #fcfdff;
+        border-color: rgb(16, 155, 158);
+        box-shadow: none;
+    }
+    .accordion-button:active,
+    .accordion-button:focus {
+        color: rgb(36, 36, 38);
+        background-color: #fcfdff;
+        border-color: rgb(16, 155, 158);
+        box-shadow: none;
     }
     .news-title {
         color: rgb(36, 36, 38);
         text-decoration: none;
         font-size: 1.25rem;
     }
-    .news-title:hover {
-        color: rgb(16, 155, 158);
-        text-decoration: none;
-    }
     .news-date {
+        color: rgb(16, 155, 158);
         font-size: 0.875rem;
+        padding-right: 2rem;
     }
     .news-link {
         color: rgb(16, 155, 158);
@@ -95,107 +48,80 @@
     <div class="container py-5">
 
         <!--Section title-->
-        <div class="d-flex justify-content-between align-items-center mt-0 mb-4">
-
-            <div class="section-title pb-3">News</div>    
-            <a class="section-link pb-2" href="http://webtest.bioquant.uni-heidelberg.de/news">All news</a>
-
-        </div>
-
-        <!--Research highlight-->
-        <div class="container highlight block-link px-0 mt-4">
-            <div class="row mx-auto">
-
-                <!--Highlight image-->
-                <div class="d-none d-md-block col-md-4 highlight-img px-0"></div>
-    
-                <!--Text-->
-                <div class="col-md-8 col-sm-12 p-5 my-3">
-    
-                    <!--Highlight title-->
-                    <p>
-                        <a class="highlight-title" href="#">
-                            <span class="main-link">&nbsp;</span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id sagittis tortor. Sed a fermentum tortor.
-                        </a>
-                    </p>
-    
-                    <!--Highlight teaser-->
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero at ex faucibus pellentesque. Nulla volutpat elit vitae.
-                    </p>
-    
-                    <!--News info-->
-                    <div class="d-flex justify-content-between align-items-center">
-
-                        <div class="news-date">Jan 01, 2022</div>                
-                        <a class="highlight-link sub-link" href="#">Read more</a>
-            
-                    </div>
-                    
-                </div>
-
-            </div>
-        </div>
+        <div class="section-title pb-3">Latest News</div>
 
         <!--News-->
-        <div class="container px-0 mt-4">
-            <div class="row g-4">
-
-                <!--News 1-->
-                <div class="col-lg-6">
-                    <div class="block-link news-text p-5">
-    
-                        <!--News title-->
-                        <p>
-                            <a class="news-title" href="#">
-                                <span class="main-link">&nbsp;</span>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-                            </a>
-                        </p>
-        
-                        <!--News teaser-->
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-        
-                        <!--News info-->
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="news-date">Jan 01, 2022</div>                  
-                            <a class="news-link sub-link" href="#">Read more</a>                
-                        </div>
-                        
+        <div class="accordion" id="accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                        <p class="news-date">Mar 31, 2022</p>
+                        <p class="news-title">Current information on coronavirus guidelines at Heidelberg University</p>
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>Find the latest information on corona ordinances, regulations for organizing events or teaching, vaccination opportunities, data collection, and more.</p>
+                        <p>Read more on the university website in <a class="news-link" href="https://www.uni-heidelberg.de/de/newsroom/informationen-zum-coronavirus">German</a> or <a class="news-link" href="https://www.uni-heidelberg.de/en/newsroom/measures-of-the-university-for-protection-against-the-coronavirus">English</a>.</p>
                     </div>
                 </div>
-
-                <!--News 2-->
-                <div class="col-lg-6">
-                    <div class="block-link news-text p-5">   
-
-                        <!--News title-->
-                        <p>
-                            <a class="news-title" href="#">
-                                <span class="main-link">&nbsp;</span>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-                            </a>
-                        </p>
-
-                        <!--News teaser-->
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-
-                        <!--News info-->
-                        <div class="d-flex justify-content-between align-items-center">   
-                            <div class="news-date">Jan 01, 2022</div>
-                            <a class="news-link sub-link" href="#">Read more</a>               
-                        </div>  
-
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                        <p class="news-date">Mar 09, 2022</p>
+                        <p class="news-title">All living cells possess a universal chemical mechanism for methane formation</p>
+                    </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>Dr. Ilka Bischofs and collaborators uncover that methane formation is driven by reactive oxygen species across all living organisms.</p>
+                        <p>Read the <a class="news-link" href="https://www.nature.com/articles/s41586-022-04511-9">original Nature publication</a>.</p>
                     </div>
                 </div>
-
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                        <p class="news-date">Feb 21, 2022</p>
+                        <p class="news-title">Legal expert Prof. Dr. Fruzsina Molnár-Gábor appointed to the European Ethics Council</p>
+                    </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse show" aria-labelledby="heading3" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>She joins experts advising the EU Commission on ethical questions posed by scientific and technological innovation.</p>
+                        <p>Read more in <a class="news-link" href="https://www.uni-heidelberg.de/en/newsroom/fruzsina-molnar-gabor-appointed-to-european-group-on-ethics?menu=0">Heidelberg University's press release</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading4">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                        <p class="news-date">Feb 05, 2022</p>
+                        <p class="news-title">PD Dr. Niels Halama appears in an ARTE documentary on mRNA vaccines for cancer</p>
+                    </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse show" aria-labelledby="heading4" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>You can <a href="https://www.arte.tv/de/videos/101940-013-A/42-die-antwort-auf-fast-alles/">stream it online on ARTE</a> (English subtitles available).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading5">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                        <p class="news-date">Jan 14, 2022</p>
+                        <p class="news-title">SARS-CoV-2 suppression with novel combinatorial AAV-RNAi vectors</p>
+                    </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse show" aria-labelledby="heading5" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>Grimm Lab and collaborators at CIID present new recombinant AAV vectors, which inhibit coronavirus infection ex vivo and in vivo.</p>
+                        <p>Read the <a href="https://www.cell.com/molecular-therapy-family/molecular-therapy/fulltext/S1525-0016(22)00024-7">original publication in Molecular Therapy</a>.</p>
+                        <p>For more information, follow <a href="https://twitter.com/grimmlab/status/1482013830079295490">Grimm Lab's Twitter thread</a>.</p>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 </section>
