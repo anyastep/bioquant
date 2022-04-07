@@ -1,0 +1,173 @@
+BioQuant Groups
+
+Bioinformatics Tools for Omics Data
+Dr. Simon Anders
+We develop methods to process, analyse and interpret high-throughput sequencing data.
+https://www.zmbh.uni-heidelberg.de/Anders/default.shtml
+
+Complex Adaptive Traits
+Dr. Ilka Bischofs
+We use tools from molecular biology, microscopy and mathematical modeling to control and engineer CATs.
+http://www.bioquant.uni-heidelberg.de/research/groups/bischofslab.html
+
+Membrane Biology of Viral Infection
+Dr. Petr Chlanda
+We are studying how viruses interact with cellular membranes and lipids during infection.
+http://www.bioquant.uni-heidelberg.de/research/groups/chlandalab.html
+
+High-Content Analysis of the Cell
+Dr. Holger Erfle
+We design, develop and apply novel technologies for high-content screening and analysis.
+http://www.bioquant.uni-heidelberg.de/research/groups/hicell.html
+
+Tissue Imaging and Analysis Center
+Prof. Dr. Niels Grabe
+We perform quantitative analysis and modeling of tissues, with emphasis on clinically relevant research projects.
+https://tigacenter.bioquant.uni-heidelberg.de/
+
+Modeling Infection and Immunity
+Dr. Frederik Graw
+We combine mathematical models and experimental data to study infection and immune processes within a host.
+http://www.bioquant.uni-heidelberg.de/research/groups/grawlab.html
+
+Virus-Host Interactions
+Prof. Dr. Dirk Grimm
+We develop gene therapies by engineering non-pathogenic Adeno-associated viruses.
+https://grimm-labs.com/
+
+Biomedical Genomics
+Dr. Carl Herrmann
+We work on gene (de)regulation in diseases and methods for integration of large scale genomics datasets.
+https://www.hdsu.org/
+
+Theoretical Bioinformatics
+Dr. Stefan Kallenberger
+
+Modeling of Biological Processes
+Prof. Dr. Ursula Kummer
+We develop methods for the simulation, modeling and analysis of biochemical networks.
+https://www.cos.uni-heidelberg.de/de/forschungsgruppen/modellierung-biologischer-prozesse
+
+Single-Cell Open Lab
+Dr. Jan-Philipp Mallm
+We focus on providing automated, high-throughput and multi-omic readouts tailored to cancer research.
+https://www.dkfz.de/en/single-cell-sequencing/open-lab.html
+
+Biomedical Law (Pending)
+Dr. Fruzsina Molnár-Gábor
+We investigate medical and data protection laws in regulations of biomedicine and biotechnology research.
+https://www.hadw-bw.de/mitarbeiter/dr-iur-fruzsina-molnar-gabor
+
+Biological Information Processing
+Dr. Jürgen Pahle
+We analyse how living systems take up, process, store and transfer information.
+https://lab.pahle.org/
+
+Chromatin Networks
+Prof. Dr. Karsten Rippe
+We analyze the dynamic organization of the (epi)genome in relation to gene expression and functional cell states.
+https://malone.bioquant.uni-heidelberg.de/
+
+Biomedical Computer Vision
+PD Dr. Karl Rohr
+We develop methods for computer-based analysis of biological and medical images.
+http://www.bioquant.uni-heidelberg.de/research/groups/biomedical_computer_vision.html
+
+Protein Evolution
+Prof. Dr. Rob Russell
+We investigate all aspects of protein structure, function and evolution, focusing on molecular interactions.
+http://www.russelllab.org/
+
+Methods in Computational Systems Biology
+Dr. Sven Sahle
+We develop computational methods and software for modeling and analysis of biochemical reaction networks.
+https://www.bioquant.uni-heidelberg.de/research/groups/sahle-group.html
+
+Cryo-Electron Microscopy
+Prof. Dr. Rasmus Schröder
+We study actin-myosin macromolecular motor systems using single particle analysis and electron cryo tomography.
+https://www.cam.uni-heidelberg.de/research/ag_schroeder
+
+Groups with Projects at BioQuant
+
+Health Data Science Unit
+Prof. Dr. Roland Eils
+We provide medical informatics solutions to make patient data accessible for clinical research and education.
+https://www.highmed.org/en/home
+
+Medical Oncology
+Prof. Dr. Dirk Jäger
+We focus on translation of innovative therapeutic approaches into early clinical trials for the treatment of tumors.
+https://www.nct-heidelberg.de/en/the-nct/core-areas/medical-oncology.html
+
+Translational Immunotherapy
+PD Dr. Niels Halama
+We develop tissue processing workflows and technologies for applications in solid tumor immunotherapy.
+https://www.dkfz.de/en/translationale-immuntherapie/index.php
+
+Single Molecule Biophysics
+Prof. Dr. Mike Heilemann
+We study biomolecule structures using sub-diffraction-limit resolution imaging with single-molecule sensitivity.
+http://www.bioquant.uni-heidelberg.de/research/groups/single-molecule-biophysics.html
+
+Systems Biology of Signal Transduction
+Prof. Dr. Ursula Klingmüller
+We elucidate molecular mechanisms that regulate cellular decisions and their impact at the tissue- and organ-levels.
+https://www.dkfz.de/en/systembiologie/index.php
+
+Physics of Complex Biosystems
+Prof. Dr. Ulrich Schwarz
+We develop a systems-level understanding of cell mechanics and adhesion.
+https://www.thphys.uni-heidelberg.de/~biophys/
+
+Molecular Mechanisms of Intracellular Trafficking
+Prof. Dr. Vytautė Starkuvienė
+We analyse how intracellular trafficking adapts to extracellular signals. Joint projects at Vilnius University and Erfle lab.
+https://www.gmc.vu.lt/en/research/research-areas/cell-molecular-biology/76-research/research-descriptions/rd-cell-molecular-biology/1768-molecular-mechanisms-of-intracellular-trafficking
+
+ERC DECODE
+
+Signaling and Functional Genomics
+Prof. Dr. Michael Boutros
+We study cellular signaling networks with genetic / genomic approaches, focusing on Wnt and Wnt-interacting pathways.
+https://www.dkfz.de/en/signaling/index.php
+http://www.bioquant.uni-heidelberg.de/research/groups/boutros-lab/home.html
+
+Quantitative Biology Statistics
+Dr. Wolfgang Huber
+We develop and apply statistical methods for biotechnologies and then translate them into reusable tools.
+https://www.embl.org/groups/huber/
+
+Stem Cell Biology
+Prof. Dr. Jan Lohmann
+We study the development of complex stem cells in plants using genetic, genomic and molecular approaches.
+https://www.cos.uni-heidelberg.de/de/stammzellbiologie
+
+Statistical Genomics and Systems Genetics 
+Dr. Oliver Stegle
+We develop statistical and machine learning methods to decipher molecular variation across individuals, space, and time.
+https://www.embl.org/groups/stegle/
+
+ERC IndiGene
+
+Developmental Biology/Physiology
+Prof. Dr. Jochen Wittbrodt
+We study neuronal cell proliferation and differentiation in the developing, growing and regenerating eye and brain of fish.
+https://www.cos.uni-heidelberg.de/en/research-groups/developmental-biologyphysiology
+
+Associated Groups
+
+Applied Analysis and Modelling in Biosciences
+Prof. Dr. Anna Marciniak-Czochra
+We use mathematical models to analyze the dynamics of structure formation and self-organisation in cell systems.
+http://www.biostruct.uni-hd.de/
+
+Retroviral and Influenza Virus (IAV) Biology
+Prof. Dr. Hans-Georg Kräusslich
+We study the formation and architecture of subviral complexes and their interaction with cellular structures.
+https://ciid-heidelberg.de/research-groups/kraeusslich-lab/
+
+Systems Biomedicine
+Prof. Dr. Julio Saez-Rodriguez
+We study signaling network deregulation in various diseases by integrating multi-omics data into mathematical models.
+https://saezlab.org/

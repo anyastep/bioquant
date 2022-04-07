@@ -29,9 +29,9 @@
         scrollFunction();
     };
     function scrollFunction() {
+        var scrollTotal = document.documentElement.scrollHeight - document.documentElement.clientHeight
         if (
-            document.body.scrollTop > 512 ||
-            document.documentElement.scrollTop > 512
+            (document.documentElement.scrollTop / scrollTotal) > 0.30
         ) {
             mybutton.style.opacity = "1";
         } else {
