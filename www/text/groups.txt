@@ -40,6 +40,9 @@ Dr. Carl Herrmann
 We work on gene (de)regulation in diseases and methods for integration of large scale genomics datasets.
 https://www.hdsu.org/
 
+Theoretical Bioinformatics
+Dr. Stefan Kallenberger
+
 Modeling of Biological Processes
 Prof. Dr. Ursula Kummer
 We develop methods for the simulation, modeling and analysis of biochemical networks.
@@ -54,11 +57,6 @@ Biomedical Law (Pending)
 Dr. Fruzsina Molnár-Gábor
 We investigate medical and data protection laws in regulations of biomedicine and biotechnology research.
 https://www.hadw-bw.de/mitarbeiter/dr-iur-fruzsina-molnar-gabor
-
-Synthetic Biology
-Dr. Dominik Niopek
-We develop molecular tools to study genome regulation and direct cell function.
-https://www.bio.tu-darmstadt.de/forschung/ressearch_groups/Niopek_Start.en.jsp
 
 Biological Information Processing
 Dr. Jürgen Pahle
