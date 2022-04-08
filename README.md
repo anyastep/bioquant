@@ -6,4 +6,4 @@ https://www.bioquant.uni-heidelberg.de/
 ## Team members
 
 - Anna Stepanova (<https://github.com/anyastep>)
-- Marie Buck-Wiese (<https://github.com/MarieBuckWiese>
+- Marie Buck-Wiese (<https://github.com/MarieBuckWiese>)
