@@ -133,7 +133,7 @@ We study cellular signaling networks with genetic / genomic approaches, focusing
 https://www.dkfz.de/en/signaling/index.php
 http://www.bioquant.uni-heidelberg.de/research/groups/boutros-lab/home.html
 
-Quantitative Biology Statistics
+Quantitative Biology and Statistics
 Dr. Wolfgang Huber
 We develop and apply statistical methods for biotechnologies and then translate them into reusable tools.
 https://www.embl.org/groups/huber/
