@@ -1,0 +1,357 @@
+<style type="text/css">
+    #home,
+    #program,
+    #registration,
+    #venue,
+    #contact {
+        padding-top: 129.54px;
+        margin-top: -129.54px;
+    }
+    .home {
+        animation: bgFadeIn 1s ease-in both;
+    }
+    @keyframes bgFadeIn {
+        0% {
+        background-color: rgb(252, 253, 255);
+        }
+        100% {
+        background-color: rgba(252, 253, 255, 0);
+        }
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .program,
+    .gallery,
+    .registration {
+        color: #fcfdff;
+        background-color: #242426;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .subtitle {
+        font-size: 1.25rem;
+        color: #109e9b;
+    }
+    .table thead tr th,
+    .table tbody tr td {
+        color: #fcfdff;
+        background-color: #242426;
+        --bs-table-hover-bg: #242426;
+        --bs-table-hover-color: #109e9b;
+    }
+    .table tr,
+    .table td {
+        border: none;
+    }
+    .btn-register {
+        color: #109e9b;
+        border-color: #109e9b;
+        padding: 1em;
+        position: relative;
+        overflow: hidden;
+        z-index: 9;
+    }
+    .btn-register:hover {
+        color: #fcfdff;
+        background-color: #dee3ea;
+        text-decoration: none;
+    }
+    .btn-register:before {
+        content: "";
+        background: #109e9b;
+        width: 0px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        -webkit-transition: all 0.25s ease-in-out 0s;
+        -moz-transition: all 0.25s ease-in-out 0s;
+        -ms-transition: all 0.25s ease-in-out 0s;
+        -o-transition: all 0.25s ease-in-out 0s;
+        transition: all 0.25s ease-in-out 0s;
+    }
+    .btn-register:hover:before {
+        width: 100%;
+    }
+    .border {
+        border-color: #fcfdff !important;
+        transition: border 0.4s ease-in-out;
+    }
+    .border:hover {
+        border-color:#109e9b !important;
+        transition: border 0.4s ease-in-out;
+    }
+    .venue {
+        background-color: #dee3ea;
+    }
+    .map {
+        width: 100%;
+    }
+    .map-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+    .directions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .direction-box {
+        background-color: #fcfdff;
+        border-color: #fcfdff;
+        overflow: hidden;
+        text-align: center;
+    }
+    .box-title {
+        color: #109e9b;
+    }
+    @media only screen and (max-width: 913px) {
+        .description{
+            margin-top: 1.5rem;
+            min-height: 200px;
+        }
+    }
+    .contact-box {
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+        background-color: #dee3ea;
+        color: #242426;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        display: block;
+        justify-content: center;
+    }
+    .contact-title {
+        color: #109e9b;
+    }
+    .name {
+        font-size: 1.25rem;
+    }
+    .email {
+        -ms-user-select: None;
+        -moz-user-select: None;
+        -webkit-user-select: None;
+        user-select: None; 
+    }
+</style>
+
+<!--Scrollspy-->
+<div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+
+    <!--Welcome section-->
+    <section class="home py-5">
+        <div class="container" id="home">
+
+            <div class="section-title py-3">Celebrating 15 Years of BioQuant</div>
+    
+            <p>Welcome to BioQuant, the Center for Quantitative Analysis of Molecular and Cellular Biosystems!</p>
+
+            <p>BioQuant comprises three pillars: quantitative experimentation, modern technologies, and computation. Together our scientists study complex biological systems to uncover their fundamental principles. We also develop innovative technology platforms and provide them to the scientific community.</p>
+            <p>Founded in 2007, our institute has served to advance biomedical research and education. Since then we have grown into a hub of the multidisciplinary research network.</p>
+
+            <p>And this year we are celebrating BioQuant's 15th anniversary.</p>
+            <p>To mark the occasion, we are hosting a scientific symposium and a jubilee party. We cordially invite all current and former members of BioQuant to join us on Tuesday, June 21, 2022.</p>
+    
+        </div>
+    </section>
+
+    <div class="full-width"><img class="img-fluid w-100" alt="Group of researchers" src="/sites/default/files/15years/people.jpg"/></div>
+
+    <!--Program section-->
+    <section class="program full-width py-5">
+        <div class="container" id="program">
+    
+            <div class="section-title py-3">Program</div>
+            <div class="title pb-3">Scientific Symposium and Jubilee Party</div>
+            <div class="subtitle pb-3">Tuesday, June 21, 2022</div>
+            <p>All talks will take place in seminar rooms 41-44.</p>
+
+            <div class="table-responsive">
+                <table class="table table-xl table-hover table-borderless">
+                    <tbody>
+                        <tr><td>12.00 AM</td><td>Registration @ Foyer</td><td></td></tr>
+                        <tr><td>01.00 PM</td><td>Opening by Hans Georg-Kräusslich</td><td>Center for Infectious Diseases, Heidelberg University Hospital</td></tr>
+                        <tr><td>01.30 PM</td><td>Ana J. Garcia-Saéz</td><td>CECAD Research Center and Institute for Genetics, University of Cologne</td></tr>
+                        <tr><td>02.00 PM</td><td>Lars Kaderali</td><td>Institute for Bioinformatics, Greifswald University Hospital</td></tr>
+                        <tr><td>02.30 PM</td><td>Coffee Break @ Foyer</td><td></td></tr>
+                        <tr><td>03.00 PM</td><td>Barbara Di Ventura</td><td>BIOSS Centre and Institute of Biology II, University of Freiburg</td></tr>
+                        <tr><td>03.30 PM</td><td>Dirk-Peter Herten</td><td>Institute of Cardiovascular Sciences and School of Chemistry, University of Birmingham</td></tr>
+                        <tr><td>04.00 PM</td><td>Closing Remarks by Jürgen Wolfrum</td><td>Honorary Director of BioQuant</td></tr>
+                        <tr><td>04.20 PM</td><td>End of Meeting</td><td></td></tr>
+                        <tr><td>05.00 PM</td><td>Jubilee Party</td><td></td></tr>
+                    </tbody>
+                </table>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- Gallery section-->
+    <section class="gallery full-width">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-6 mb-4 mb-lg-0">
+                    <img class="w-100 mb-4" alt="Computer cluster" src="/sites/default/files/15years/venue_1.jpg"/>
+                    <img class="w-100 mb-4" alt="Staircase during nighttime" src="/sites/default/files/15years/venue_4.jpg"/>
+                </div>
+                <div class="col-sm-4 mb-4 mb-lg-0">
+                    <img class="w-100 mb-4" alt="Art installation" src="/sites/default/files/15years/venue_2.jpg"/>
+                    <img class="w-100 mb-4" alt="Top floor" src="/sites/default/files/15years/venue_5.jpg"/>
+                </div>
+                <div class="col-sm-4 mb-4 mb-lg-0">
+                    <img class="w-100 mb-4" alt="Staircase during daytime" src="/sites/default/files/15years/venue_3.jpg"/>
+                    <img class="w-100 mb-4" alt="Seminar room" src="/sites/default/files/15years/venue_6.jpg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Registration section-->
+    <section class="registration full-width py-5">
+        <div class="container" id="registration">
+    
+            <div class="section-title py-3">Registration</div>
+
+            <p>Follow the link to register for the 15 Years of BioQuant symposium and jubilee party.</p>
+            <p>Registration is open until Tuesday, June 7, 2022.</p>
+
+            <a href="https://www.conferencecentral.org/signup/signup?t=ab1577db-ab97-4827-aba0-e80b7bd1b42f" class="btn btn-outline-secondary btn-register col-lg-3 mt-3 mb-4">
+                Register here
+            </a>
+
+            <div class="row g-4 py-4">
+                <div class="col-md-6">
+                    <p class="name">Do you want to join the events in person?</p>
+                    <p>
+                        Please note that the number of on-site participants is limited.<br>
+                        We recommend that you register well in advance.
+                    </p>
+                </div>
+                
+                <div class="col-md-6">
+                    <p class="name">Do you plan to join the symposium online?</p>
+                    <p>
+                        The symposium is a hybrid event. All talks will be streamed online.<br>
+                        When registering, please select the virtual participation option.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <!--Venue section-->
+    <section class="venue full-width py-5">
+        <div class="container" id="venue">
+    
+            <div class="section-title py-3">How to Find Us</div>
+            
+            <div class="row g-4 py-4">
+    
+                <div class="col-sm-12 col-lg-7">
+    
+                    <div class="border px-0 mb-3">
+                        <div class="direction-box py-4">
+    
+                            <p class="box-title mt-2">Address</p>  
+                            <p>BioQuant<br />Im Neuenheimer Feld 267<br />69120 Heidelberg</p>
+        
+                        </div>
+                    </div>
+    
+                    <div class="border px-0">
+                        <div class="direction-box py-4">
+    
+                            <p class="box-title mt-2">Public Transport</p>
+                            <p class="mb-0">from Heidelberg Hbf</p>
+                            <p>Tram No. 24 or 21 to Bunsengymnasium</p>
+                            <p class="mb-0">from Bismarckplatz</p>
+                            <p>Bus No. 31 or 29 to Bunsengymnasium</p>
+        
+                        </div>
+                    </div>
+                    
+                </div>
+    
+                <div class="col-sm-12 col-lg-5">
+                    <div class="map">
+                        <img alt="lageplan" class="map-img" data-entity-type="file" data-entity-uuid="20cd9802-47d8-40d7-a3b0-ccba14321388" src="/sites/default/files/inline-images/lageplan_bioquant_newgreen_500px-min.png" />
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    </section>
+    
+    <!--Contact section-->
+    <section class="contact py-5">
+        <div class="container" id="contact">
+    
+            <div class="section-title py-3">Contact</div>
+            
+            <div class="row g-4 py-4 justify-content-between">
+    
+                <div class="col-sm-12 col-md-6">
+                    <div class="border px-0">
+                        <div class="contact-box py-4">
+    
+                            <p class="contact-title mt-2">
+                                Managing Director
+                            </p>
+                            <p class="name mt-2">
+                                Dr. Katrin Hübner
+                            </p>                       
+                            <p class="email">
+                                <svg class="bi bi-envelope-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path> </svg>
+                                katrin.huebner @ bioquant.uni-heidelberg.de
+                            </p>                      
+                            <p>
+                                <svg class="bi bi-telephone-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" fill-rule="evenodd"></path> </svg>
+                                +49 (0)6221 54-51202
+                            </p>
+                            <p>
+                                <svg class="bi bi-house-door-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"></path> </svg>
+                                INF 267 Room 741
+                            </p>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6">
+                    <div class="border px-0">
+                        <div class="contact-box py-4">
+    
+                            <p class="contact-title mt-2">
+                                Administration
+                            </p>
+                            <p class="name mt-2">
+                                Michaela Schneider
+                            </p>
+                            <p class="email"><svg class="bi bi-envelope-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path> </svg> 
+                                geschaeftsstelle @ bioquant.uni-heidelberg.de
+                            </p>
+                            <p><svg class="bi bi-telephone-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" fill-rule="evenodd"></path> </svg> 
+                                +49 (0)6221 54-51202
+                            </p>                       
+                            <p><svg class="bi bi-house-door-fill" fill="currentColor" height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"></path> </svg> 
+                                INF 267 Room 743
+                            </p>
+                        
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+    
+        </div>
+    </section>    
+
+</div>
