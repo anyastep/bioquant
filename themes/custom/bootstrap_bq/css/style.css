@@ -1,61 +1,89 @@
-/* @file Subtheme specific CSS */
+/* @file Bootstrap BioQuant theme specific CSS */
 
 body {
-    height: 100%;
-    /* Custom font */
     font-family: 'Trade Gothic LT Std', sans-serif !important;
+    height: 100%;
     overflow-x: hidden;
 }
+
 #page {
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
+/* Stretch short content for sticky footer */
+
 .layout-main-wrapper {
-    /* Stretch short content for sticky footer */
     flex: 1 0 auto;
 }
+
 .site-footer {
     flex-shrink: 0;
 }
+
+/* Add top margin to avoid fixed navbar overlap */
+
 .main-content {
-    /* Add top margin to avoid fixed navbar overlap */
     margin-top: 129.54px;
     padding: 0;
 }
 
 /* Set navbar region to full width */
+
 #block-navbar,
 #block-header-main {
     width: 100%;
 }
 
 /* Set max page width */
+
 @media (max-width: 1439.98px) {
     .container {
         max-width: 960px;
     }
 }
-/* When the width is between 1440px and 1600px */
-@media (max-width: 1599.98px) and (min-width: 1440px) {
+
+@media (min-width: 1440px) and (max-width: 1599.98px) {
     .container {
         max-width: 1140px;
     }
 }
-/* When the width is between 1600px and 1920px */
-@media (max-width: 1919.99px) and (min-width: 1600px) {
+
+@media (min-width: 1600px) and (max-width: 1919.99px) {
     .container {
         max-width: 1320px;
     }
 }
-/* When the width is above 1920px */
+
 @media (min-width: 1920px) {
     .container {
         max-width: 1680px;
     }
 }
 
-/* Add an option for full-width container */
+/* Remove region margins and padding */
+
+#navbar-main {
+    padding: 0;
+}
+
+.node__content {
+    margin-top: 0;
+}
+
+.site-footer,
+.site-footer .container-fluid,
+.site-footer__bottom,
+.site-footer__bottom .region,
+.site-footer__bottom .block,
+.site-footer__bottom .content {
+    padding: 0;
+    margin: 0;
+}
+
+/* Full-width container */
+
 .full-width {
     width: 100vw;
     position: relative;
@@ -65,19 +93,45 @@ body {
     margin-right: -50vw;
 }
 
-/* Remove region margins and padding */
-#navbar-main {
-    padding: 0;
+/* ---------- Custom Colors ----------- */
+
+:root {
+    --green: 16, 155, 158;
+    --white: 252, 253, 255;
+    --grey: 222, 227, 234;
+    --black: 6, 36, 38;
+    --purple: 138, 27, 106;
+    --text-opacity: 1;
+    --bg-opacity: 1;
 }
-.node__content {
-    margin-top: 0;
+
+.text-green {
+    color: rgba(var(--green), var(--text-opacity)) !important;
 }
-.site-footer,
-.site-footer .container-fluid,
-.site-footer__bottom,
-.site-footer__bottom .region,
-.site-footer__bottom .block,
-.site-footer__bottom .content {
-    padding: 0;
-    margin: 0;
+.bg-green {
+    background-color: rgba(var(--green), var(--bg-opacity)) !important;
+}
+.text-white {
+    color: rgba(var(--white), var(--text-opacity)) !important;
+}
+.bg-white {
+    background-color: rgba(var(--white), var(--bg-opacity)) !important;
+}
+.text-grey {
+    color: rgba(var(--grey), var(--text-opacity)) !important;
+}
+.bg-grey {
+    background-color: rgba(var(--grey), var(--bg-opacity)) !important;
+}
+.text-black {
+    color: rgba(var(--black), var(--text-opacity)) !important;
+}
+.bg-black {
+    background-color: rgba(var(--black), var(--bg-opacity)) !important;
+}
+.text-purple {
+    color: rgba(var(--purple), var(--text-opacity)) !important;
+}
+.bg-purple {
+    background-color: rgba(var(--purple), var(--bg-opacity)) !important;
 }
