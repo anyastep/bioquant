@@ -1,115 +1,54 @@
-/* ---------- Bootstrap Layout Builder Colors ----------- */
-
-.bq-text-green {
-  color: #109b9e !important;
-}
-.bq-text-white {
-  color: #fcfdff !important;
-}
-.bq-text-grey {
-  color: #dee3ea !important;
-}
-.bq-text-black {
-  color: #242426 !important;
-}
-.bq-text-purple {
-  color: #8a1b6a !important;
-}
-.bq-bg-green {
-  background-color: #109b9e !important;
-}
-.bq-bg-white {
-  background-color: #fcfdff !important;
-}
-.bq-bg-grey {
-  background-color: #dee3ea !important;
-}
-.bq-bg-black {
-  background-color: #242426 !important;
-}
-.bq-bg-purple {
-  background-color: #8a1b6a !important;
-}
-
 /* ---------- Color Module Styles ----------- */
 
 body {
   color: #242426;
-  background: #fcfdff;
+  background-color: #fcfdff;
 }
 
 #page,
 #main-wrapper,
+#navbar-top,
+#navbar-main,
 .region-primary-menu .menu-item a.is-active,
-.region-primary-menu .menu-item--active-trail a {
-  background: #fcfdff;
-}
-
-.tabs ul.primary li a.is-active {
+.region-primary-menu .menu-item--active-trail a,
+.tabs ul.primary li a.is-active,
+.tabs ul.primary li.is-active a,
+.sidebar .block {
   background-color: #fcfdff;
-}
-
-.tabs ul.primary li.is-active a {
-  background-color: #fcfdff;
-  border-bottom-color: #fcfdff;
-}
-
-#navbar-top {
-  background-color: rgba(222, 227, 234, 0);
-}
-
-#navbar-main {
-  background-color: rgba(222, 227, 234, 0);
 }
 
 a,
-.link {
+.link,
+.page-link {
   color: #109b9e;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus,
-.link:hover,
-.link:focus {
-  color: rgba(36, 36, 38, 0.7);
-  text-decoration: underline;
-}
-
 a:active,
-.link:active {
-  color: rgba(36, 36, 38, 0.7);
-  text-decoration: underline;
-}
-
-.page-item.active .page-link {
-  background-color: #109b9e;
-  border-color: #109b9e;
-}
-
-.page-link,
+.link:hover,
+.link:focus,
+.link:active,
 .page-link:hover {
-  color: rgba(36, 36, 38, 0.7);
+  color: rgba(36, 36, 38, 0.75);
+  text-decoration: none;
 }
 
-.sidebar .block {
-  background-color: #fcfdff;
-  border-color: #fcfdff;
-}
-
-.btn-primary {
+.btn-primary,
+.page-item.active .page-link {
   background-color: #109b9e;
   border-color: #109b9e;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: rgba(16, 155, 158, 0.7);
-  border-color: rgba(16, 155, 158, 0.7);
+  background-color: rgba(16, 155, 158, 0.75);
+  border-color: rgba(16, 155, 158, 0.75);
 }
 
 .site-footer {
-  background: #242426;
+  background-color: #242426;
 }
 
 .region-header,
