@@ -1,10 +1,4 @@
 <style type="text/css">
-    .navbar {
-        background-color: rgb(252, 253, 255);
-    }
-    .navbar-custom {
-        padding: 0;
-    }
     .nav-menu,
     .nav-menu:hover,
     .nav-menu:focus,
@@ -24,13 +18,6 @@
         color: rgba(36, 36, 38, 0.6);
         text-decoration: none;
     }
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-    .home {
-        display: inline-block;
-    }
     .dropdown-menu {
         min-width: 135px;
         display: none;
@@ -42,15 +29,11 @@
         z-index: 1;
         font-size: 0.875rem;
     }
-    .nav-link a,
     .dropdown-menu a {
         color: rgb(36, 36, 38);
         text-decoration: none;
         display: block;
     }
-    .nav-link a:hover,
-    .nav-link a:focus,
-    .nav-link a:active,
     .dropdown-menu a:hover,
     .dropdown-menu a:focus,
     .dropdown-menu a:active {
@@ -75,7 +58,7 @@
 </style>
 
 <!--Navigation bar-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-custom shadow-sm">
+<nav class="navbar fixed-top navbar-expand-lg shadow-sm p-0 bg-white">
     <div class="container my-4">
 
         <!--Collapse button-->
@@ -98,14 +81,14 @@
                 <ul class="navbar-nav">
 
                     <!--Home-->
-                    <div class="home">
+                    <div class="home d-inline-block">
                         <button type="button" class="btn nav-menu py-0 pe-5">
                             <a class="nav-link px-0 mb-0" href="/home">Home</a>
                         </button>
                     </div>
                     
                     <!--Link 1-->
-                    <div class="dropdown">
+                    <div class="dropdown position-relative d-inline-block">
     
                         <!--Heading-->
                         <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
@@ -121,7 +104,7 @@
                     </div> 
     
                     <!--Link 2-->
-                    <div class="dropdown">
+                    <div class="dropdown position-relative d-inline-block">
     
                         <!--Heading-->
                         <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
@@ -130,14 +113,14 @@
     
                         <!--Categories-->
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="https://www.bioquant.uni-heidelberg.de/teaching/info-for-prospective-students.html">Master Program</a></li>
+                          <li><a class="dropdown-item" href="/msb">Master Program</a></li>
                           <li><a class="dropdown-item" href="/phd">PhD Program</a></li>
                         </ul>
     
                     </div>
     
                     <!--Link 3-->
-                    <div class="dropdown">
+                    <div class="dropdown position-relative d-inline-block">
     
                         <!--Heading-->
                         <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
@@ -154,7 +137,7 @@
                     </div>
     
                     <!--Link 4-->
-                    <div class="dropdown">
+                    <div class="dropdown position-relative d-inline-block">
     
                         <!--Heading-->
                         <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
