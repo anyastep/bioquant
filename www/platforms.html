@@ -1,135 +1,86 @@
 <style type="text/css">
-    .grey {
-        background-color: #dee3ea;
-    }
-    .section-title {
-        font-size: 2rem;
-    }
-    .block-link {
-        position: relative;
-    }
-    .link {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        text-decoration: none;
-    }
-    .box {
-        height: 100%;
-        color: #242426;
-        background-color: #fcfdff;
-    }
-    .box-img {
-        background-color: #dee3ea;
-        background-size: cover;
-        min-height: 100%;
-        position: relative;
-    }
     .img-1 {
         background-image: url(/sites/default/files/2022-02/platform-1.jpg);
+        background-size: cover;
     }
     .img-2 {
         background-image: url(/sites/default/files/2022-02/platform-2.jpg);
+        background-size: cover;
     }
     .img-3 {
         background-image: url(/sites/default/files/2022-02/platform-3.jpg);
+        background-size: cover;
     }
     .img-4 {
         background-image: url(/sites/default/files/2022-02/platform-4.jpg);
+        background-size: cover;
     }
     .img-5 {
         background-image: url(/sites/default/files/2022-02/platform-5.jpg);
-    }
-    .title {
-        font-size: 1.5rem;
-        color: #242426;
-        text-decoration: none;
-    }
-    .leader {
-        font-size: 1.25rem;
-    }
-    .description{
-        margin-top: 1rem;
-    }
-    .link:hover,
-    .link:focus,
-    .link:active,
-    .title:hover,
-    .title:focus,
-    .title:active {
-        color: #109b9e;
-        text-decoration: none;
-    }
-    .block-link:hover .box-img,
-    .block-link:hover .leader,
-    .block-link:hover .description {
-        opacity: 0.7;
+        background-size: cover;
     }
     @media only screen and (max-width: 768px) {
-        .box-img{
+        .img-1, .img-2, .img-3, img-4, .img-5 {
             height: 30vw;
         }
     }
 </style>
 
 <!--Technology Platforms-->
-<section class="grey full-width">
+<section class="bg-grey full-width">
     <div class="container py-5">
         
-        <div class="section-title pb-3">Technology Platforms</div>
+        <div class="fs-2 pb-3">Technology Platforms</div>
 
-        <div class="container box block-link px-0 mt-4">
+        <div class="container h-100 bg-white position-relative px-0 mt-4" onmouseover="this.style.opacity = '0.85';" onmouseout="this.style.opacity= '1';">
             <div class="row mx-auto">
                 
                 <!--Image-->
-                <div class="box-img img-1 col-sm-12 col-md-4 px-0">&nbsp;</div>
+                <div class="bg-grey mh-100 position-relative img-1 col-sm-12 col-md-4 px-0">&nbsp;</div>
             
                 <!--Text-->
                 <div class="col-sm-12 col-md-8 p-md-5 py-3 px-4 my-3">
                     
                     <p>
-                        <a class="title" href="/absf"><span class="link">&nbsp;</span>
+                        <a class="fs-4 text-decoration-none text-black" href="/absf"><span class="position-absolute w-100 h-100 top-0 start-0 text-decoration-none">&nbsp;</span>
                             Advanced Biological Screening Facility (ABSF)
                         </a>
                     </p>
 
-                    <div class="row leader g-0">
+                    <div class="row fs-5 g-0">
                         <div class="col-sm-12 col-md-auto">Head of Facility:&nbsp;</div>
                         <div class="col">Dr. Holger Erfle</div>
                     </div>
 
-                    <p class="description">
-                        We provide a platform for gene and protein silencing.
+                    <p class="mt-3">
+                        We provide a platform for gene and protein silencing, assay development and automation, as well as access to high-throughput microscopy and data processing pipelines.
                     </p>
             
                 </div>
             </div>
         </div>
 
-        <div class="container box block-link px-0 mt-4">
+        <div class="container h-100 bg-white position-relative px-0 mt-4" onmouseover="this.style.opacity = '0.85';" onmouseout="this.style.opacity= '1';">
             <div class="row mx-auto">
                 
                 <!--Image-->
-                <div class="box-img img-2 col-sm-12 col-md-4 px-0 order-md-last">&nbsp;</div>
+                <div class="bg-grey mh-100 position-relative img-2 col-sm-12 col-md-4 px-0 order-md-last">&nbsp;</div>
             
                 <!--Text-->
                 <div class="col-sm-12 col-md-8 p-md-5 py-3 px-4 my-3">
                     
                     <p>
-                        <a class="title" href="https://www.uni-heidelberg.de/en/deep-sequencing-facility"><span class="link">&nbsp;</span>
+                        <a class="fs-4 text-decoration-none text-black" href="https://www.uni-heidelberg.de/en/deep-sequencing-facility"><span class="position-absolute w-100 h-100 top-0 start-0 text-decoration-none">&nbsp;</span>
                             Deep Sequencing Core Facility
                         </a>
                     </p>
 
-                    <div class="row leader g-0">
+                    <div class="row fs-5 g-0">
                         <div class="col-sm-12 col-md-auto">Head of Facility:&nbsp;</div>
                         <div class="col">David Ibberson</div>
                     </div>
 
-                    <p class="description">
+                    <p class="mt-3">
                         We provide access to next generation sequencing (NGS) technologies, from library preparation to professional advice on implementing NGS in your research.
                     </p>
 
@@ -138,27 +89,27 @@
             </div>
         </div>
 
-        <div class="container box block-link px-0 mt-4">
+        <div class="container h-100 bg-white position-relative px-0 mt-4" onmouseover="this.style.opacity = '0.85';" onmouseout="this.style.opacity= '1';">
             <div class="row mx-auto">
                 
                 <!--Image-->
-                <div class="box-img img-3 col-sm-12 col-md-4 px-0" style="background-image: url(https://images.unsplash.com/photo-1580378159116-918e927816ce?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869);">&nbsp;</div>
+                <div class="bg-grey mh-100 position-relative img-3 col-sm-12 col-md-4 px-0">&nbsp;</div>
             
                 <!--Text-->
                 <div class="col-sm-12 col-md-8 p-md-5 py-3 px-4 my-3">
                     
                     <p>
-                        <a class="title" href="https://emcf.cos.uni-heidelberg.de/EMCF/"><span class="link">&nbsp;</span>
+                        <a class="fs-4 text-decoration-none text-black" href="https://emcf.cos.uni-heidelberg.de/EMCF/"><span class="position-absolute w-100 h-100 top-0 start-0 text-decoration-none">&nbsp;</span>
                             Electron Microscopy Core Facility
                         </a>
                     </p>
 
-                    <div class="row leader g-0">
+                    <div class="row fs-5 g-0">
                         <div class="col-sm-12 col-md-auto">Head of Facility:&nbsp;</div>
                         <div class="col">Dr. Charlotta Funaya</div>
                     </div>
 
-                    <p class="description">
+                    <p class="mt-3">
                         We provide technical and scientific support for transmission and scanning electron microscopy to all members of Heidelberg University.
                     </p>
             
@@ -166,27 +117,27 @@
             </div>
         </div>
 
-        <div class="container box block-link px-0 mt-4">
+        <div class="container h-100 bg-white position-relative px-0 mt-4" onmouseover="this.style.opacity = '0.85';" onmouseout="this.style.opacity= '1';">
             <div class="row mx-auto">
                 
                 <!--Image-->
-                <div class="box-img img-4 col-sm-12 col-md-4 px-0 order-md-last" style="background-image: url(https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80);">&nbsp;</div>
+                <div class="bg-grey mh-100 position-relative img-4 col-sm-12 col-md-4 px-0 order-md-last">&nbsp;</div>
             
                 <!--Text-->
                 <div class="col-sm-12 col-md-8 p-md-5 py-3 px-4 my-3">
                     
                     <p>
-                        <a class="title" href="https://www.uni-heidelberg.de/nic/index.html"><span class="link">&nbsp;</span>
+                        <a class="fs-4 text-decoration-none text-black" href="https://www.uni-heidelberg.de/nic/index.html"><span class="position-absolute w-100 h-100 top-0 start-0 text-decoration-none">&nbsp;</span>
                             Nikon Imaging Center
                         </a>
                     </p>
 
-                    <div class="row leader g-0">
+                    <div class="row fs-5 g-0">
                         <div class="col-sm-12 col-md-auto">Scientific Director:&nbsp;</div>
                         <div class="col">Dr. Ulrike Engel</div>
                     </div>
 
-                    <p class="description">
+                    <p class="mt-3">
                         We promote innovation in biological research by providing cutting-edge equipment for light microscopy and training in basic and advanced imaging techniques.
                     </p>
             
@@ -194,27 +145,27 @@
             </div>
         </div>
 
-        <div class="container box block-link px-0 mt-4">
+        <div class="container h-100 bg-white position-relative px-0 mt-4" onmouseover="this.style.opacity = '0.85';" onmouseout="this.style.opacity= '1';">
             <div class="row mx-auto">
                 
                 <!--Image-->
-                <div class="box-img img-5 col-sm-12 col-md-4 px-0">&nbsp;</div>
+                <div class="bg-grey mh-100 position-relative img-5 col-sm-12 col-md-4 px-0">&nbsp;</div>
             
                 <!--Text-->
                 <div class="col-sm-12 col-md-8 p-md-5 py-3 px-4 my-3">
                     
                     <p>
-                        <a class="title" href="/tigacenter"><span class="link">&nbsp;</span>
+                        <a class="fs-4 text-decoration-none text-black" href="/tigacenter"><span class="position-absolute w-100 h-100 top-0 start-0 text-decoration-none">&nbsp;</span>
                             Tissue Imaging & Analysis Center (TIGA)
                         </a>
                     </p>
 
-                    <div class="row leader g-0">
+                    <div class="row fs-5 g-0">
                         <div class="col-sm-12 col-md-auto">Scientific Director:&nbsp;</div>
                         <div class="col">Prof. Dr. Niels Grabe</div>
                     </div>
 
-                    <p class="description">
+                    <p class="mt-3">
                         We provide a platform for imaging, quantitative analysis and computational modeling of tissues, especially for clinically relevant research projects.
                     </p>
             
