@@ -1,46 +1,13 @@
 <style type="text/css">
-    .nav-menu,
-    .nav-menu:hover,
-    .nav-menu:focus,
-    .nav-menu:active {
-        outline: none;
-        box-shadow: none;
-    }
-    .nav-link {
-        color: rgb(36, 36, 38);
-        text-decoration: none;
-    }
-    .nav-link:hover,
-    .nav-link:focus,
-    .nav-link:active,
-    .dropdown:hover .nav-link {
-        color: rgb(36, 36, 38);
-        color: rgba(36, 36, 38, 0.6);
-        text-decoration: none;
-    }
     .dropdown-menu {
         min-width: 135px;
         display: none;
         position: absolute;
-        background-color: rgb(252, 253, 255);
         border: none;
         border-top: 1px solid rgb(16, 155, 158);
         border-radius: 0;
         z-index: 1;
         font-size: 0.875rem;
-    }
-    .dropdown-menu a {
-        color: rgb(36, 36, 38);
-        text-decoration: none;
-        display: block;
-    }
-    .dropdown-menu a:hover,
-    .dropdown-menu a:focus,
-    .dropdown-menu a:active {
-        color: rgb(36, 36, 38);
-        color: rgba(36, 36, 38, 0.6);
-        text-decoration: none;
-        background-color: rgba(252, 253, 255, 0);
     }
     .dropdown-toggle::after {
         content: none;
@@ -82,8 +49,10 @@
 
                     <!--Home-->
                     <div class="home d-inline-block">
-                        <button type="button" class="btn nav-menu py-0 pe-5">
-                            <a class="nav-link px-0 mb-0" href="/home">Home</a>
+                        <button type="button" class="btn shadow-none border-0 py-2 pe-5">
+                            <a class="text-black text-decoration-none px-0 mb-0" href="/home" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                Home
+                            </a>
                         </button>
                     </div>
                     
@@ -91,14 +60,16 @@
                     <div class="dropdown position-relative d-inline-block">
     
                         <!--Heading-->
-                        <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
-                            <p class="nav-link px-0 mb-0">Research</p>
+                        <button type="button" class="btn shadow-none border-0 dropdown-toggle py-2 pe-5" data-bs-toggle="dropdown">
+                            <p class="text-black text-decoration-none px-0 mb-0" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                Research
+                            </p>
                         </button>
     
                         <!--Categories-->
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="/groups">Research Groups</a></li>
-                          <li><a class="dropdown-item" href="/platforms">Technology Platforms</a></li>
+                        <ul class="dropdown-menu bg-white">
+                          <li><a class="dropdown-item d-block text-black bg-white border-white text-decoration-none" href="/groups" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Research Groups</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/platforms" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Technology Platforms</a></li>
                         </ul>
     
                     </div> 
@@ -107,14 +78,16 @@
                     <div class="dropdown position-relative d-inline-block">
     
                         <!--Heading-->
-                        <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
-                            <p class="nav-link px-0 mb-0">Education</p>
+                        <button type="button" class="btn shadow-none border-0 dropdown-toggle py-2 pe-5" data-bs-toggle="dropdown">
+                            <p class="text-black text-decoration-none px-0 mb-0" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                Education
+                            </p>
                         </button>
     
                         <!--Categories-->
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="/msb">Master Program</a></li>
-                          <li><a class="dropdown-item" href="/phd">PhD Program</a></li>
+                        <ul class="dropdown-menu bg-white">
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/msb" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Master Program</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/phd" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">PhD Program</a></li>
                         </ul>
     
                     </div>
@@ -123,15 +96,17 @@
                     <div class="dropdown position-relative d-inline-block">
     
                         <!--Heading-->
-                        <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
-                            <p class="nav-link px-0 mb-0">Resources</p>
+                        <button type="button" class="btn shadow-none border-0 dropdown-toggle py-2 pe-5" data-bs-toggle="dropdown">
+                            <p class="text-black text-decoration-none px-0 mb-0" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                Resources
+                            </p>
                         </button>
     
                         <!--Categories-->
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="/news">News</a></li>
-                          <li><a class="dropdown-item" href="/events">Events</a></li>
-                          <li><a class="dropdown-item" href="/positions">Open Positions</a></li>
+                        <ul class="dropdown-menu bg-white">
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/news" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">News</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/events" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Events</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/positions" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Open Positions</a></li>
                         </ul>
     
                     </div>
@@ -140,16 +115,18 @@
                     <div class="dropdown position-relative d-inline-block">
     
                         <!--Heading-->
-                        <button type="button" class="btn nav-menu dropdown-toggle py-0 pe-5" data-bs-toggle="dropdown">
-                            <p class="nav-link px-0 mb-0">About</p>
+                        <button type="button" class="btn shadow-none border-0 dropdown-toggle py-2 pe-5" data-bs-toggle="dropdown">
+                            <p class="text-black text-decoration-none px-0 mb-0" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                About
+                            </p>
                         </button>
     
                         <!--Categories-->
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="/institute">Institute</a></li>
-                          <li><a class="dropdown-item" href="/organization">Organization</a></li>
-                          <li><a class="dropdown-item" href="/directory">Staff Directory</a></li>
-                          <li><a class="dropdown-item" href="/contact">Contact</a></li>
+                        <ul class="dropdown-menu bg-white">
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/institute" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Institute</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/organization" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Organization</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/directory" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Staff Directory</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/contact" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Contact</a></li>
                         </ul>
     
                     </div>
