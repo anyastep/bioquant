@@ -4,12 +4,12 @@ This repository is for developing and managing the [BioQuant](https://www.bioqua
 
 ## Table of Contents
 
-- Quick start
-- What's included
-- Documentation
-- Structure and design principles
-- Team members
-- Copyright
+- [Quick start](#quick-start)
+- [What's included](#whats-included)
+- [Documentation](#documentation)
+- [Structure and design principles](#structure-and-design-principles)
+- [Team members](#team-members)
+- [Copyright](#copyright)
 
 ## Quick start
 
