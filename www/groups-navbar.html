@@ -1,0 +1,155 @@
+<style type="text/css">
+    .dropdown-menu {
+        min-width: 135px;
+        display: none;
+        position: absolute;
+        border: none;
+        border-top: 1px solid rgb(16, 155, 158);
+        border-radius: 0;
+        z-index: 1;
+        font-size: 0.875rem;
+    }
+    .dropdown-toggle::after {
+        content: none;
+    }
+    @media (min-width: 992px) {
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    }
+    @media (max-width: 992px) {
+        .dropdown-menu {
+            border-bottom: 1px solid rgb(16, 155, 158);
+        }
+    }
+</style>
+
+<!--Navigation bar-->
+<nav class="navbar fixed-top navbar-expand-lg shadow-sm p-0 bg-white">
+    <div class="container my-4">
+
+        <!--Collapse button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Collapsible content-->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
+            
+            <div class="offcanvas-header">
+                <a class="offcanvas-title" id="offcanvasLabel" href="/home">
+                    <img src="/sites/default/files/logo_bq_h.svg" alt="BioQuant logo">
+                </a>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!--Links-->
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+
+                    <!--Home-->
+                    <div class="home d-inline-block">
+                        <button type="button" class="btn shadow-none border-0 py-2 pe-5">
+                            <a class="text-black text-decoration-none px-0 mb-0" href="/home" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                BioQuant
+                            </a>
+                        </button>
+                    </div>
+                    
+                    <!--Link 1-->
+                    <div class="dropdown position-relative d-inline-block">
+    
+                        <!--Heading-->
+                        <button type="button" class="btn shadow-none border-0 dropdown-toggle py-2 pe-5" data-bs-toggle="dropdown">
+                            <p class="text-black text-decoration-none px-0 mb-0" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                Research
+                            </p>
+                        </button>
+    
+                        <!--Categories-->
+                        <ul class="dropdown-menu bg-white">
+                          <li><a class="dropdown-item d-block text-black bg-white border-white text-decoration-none" href="/groups" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Research Groups</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/platforms" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Technology Platforms</a></li>
+                        </ul>
+    
+                    </div> 
+    
+                    <!--Link 2-->
+                    <div class="dropdown position-relative d-inline-block">
+    
+                        <!--Heading-->
+                        <button type="button" class="btn shadow-none border-0 dropdown-toggle py-2 pe-5" data-bs-toggle="dropdown">
+                            <p class="text-black text-decoration-none px-0 mb-0" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                Education
+                            </p>
+                        </button>
+    
+                        <!--Categories-->
+                        <ul class="dropdown-menu bg-white">
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/msb" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Master Program</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/phd" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">PhD Program</a></li>
+                        </ul>
+    
+                    </div>
+    
+                    <!--Link 3-->
+                    <div class="dropdown position-relative d-inline-block">
+    
+                        <!--Heading-->
+                        <button type="button" class="btn shadow-none border-0 dropdown-toggle py-2 pe-5" data-bs-toggle="dropdown">
+                            <p class="text-black text-decoration-none px-0 mb-0" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                Resources
+                            </p>
+                        </button>
+    
+                        <!--Categories-->
+                        <ul class="dropdown-menu bg-white">
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/news" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">News</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/events" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Events</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/positions" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Open Positions</a></li>
+                        </ul>
+    
+                    </div>
+    
+                    <!--Link 4-->
+                    <div class="dropdown position-relative d-inline-block">
+    
+                        <!--Heading-->
+                        <button type="button" class="btn shadow-none border-0 dropdown-toggle py-2 pe-5" data-bs-toggle="dropdown">
+                            <p class="text-black text-decoration-none px-0 mb-0" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">
+                                About
+                            </p>
+                        </button>
+    
+                        <!--Categories-->
+                        <ul class="dropdown-menu bg-white">
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/institute" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Institute</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/organization" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Organization</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/directory" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Staff Directory</a></li>
+                          <li><a class="dropdown-item d-block text-black bg-white text-decoration-none" href="/contact" onmouseover="this.style.opacity = '0.6';" onmouseout="this.style.opacity = '1';">Contact</a></li>
+                        </ul>
+    
+                    </div>
+    
+                </ul> 
+            </div>
+
+        </div>
+
+        <!--Logos-->
+        <div class="ms-auto">
+
+            <!--Main logo-->
+            <a class="navbar-brand" href="/home">
+                <img src="/sites/default/files/logo_bq.svg" alt="BioQuant logo">
+            </a>
+
+            <!--Uni logo-->
+            <a href="https://www.uni-heidelberg.de/">
+                <img alt="Heidelberg University" src="/sites/default/files/logo_hd.svg">
+            </a>
+
+        </div>
+
+    </div>
+</nav>
