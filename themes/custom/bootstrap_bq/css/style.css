@@ -5,7 +5,6 @@ body {
     height: 100%;
     overflow-x: hidden;
 }
-
 #page {
     height: 100vh;
     display: flex;
@@ -17,7 +16,6 @@ body {
 .layout-main-wrapper {
     flex: 1 0 auto;
 }
-
 .site-footer {
     flex-shrink: 0;
 }
@@ -43,19 +41,16 @@ body {
         max-width: 960px;
     }
 }
-
 @media (min-width: 1440px) and (max-width: 1599.98px) {
     .container {
         max-width: 1140px;
     }
 }
-
 @media (min-width: 1600px) and (max-width: 1919.99px) {
     .container {
         max-width: 1320px;
     }
 }
-
 @media (min-width: 1920px) {
     .container {
         max-width: 1680px;
@@ -67,11 +62,9 @@ body {
 #navbar-main {
     padding: 0;
 }
-
 .node__content {
     margin-top: 0;
 }
-
 .site-footer,
 .site-footer .container-fluid,
 .site-footer__bottom,
@@ -93,23 +86,40 @@ body {
     margin-right: -50vw;
 }
 
-/* ---------- Custom Colors ----------- */
+/* Link styling */
+
+a {
+    text-decoration: none;
+}
+p > a {
+    border-bottom: 1px solid #242426;
+    padding-bottom: 0.125rem;
+}
+p > a:hover,
+p > a:focus,
+p > a:active {
+    border-bottom: 1px solid #109e9b;
+}
+
+/* ---------- Custom colors ----------- */
 
 :root {
     --green: 16, 155, 158;
     --white: 252, 253, 255;
     --grey: 222, 227, 234;
-    --black: 6, 36, 38;
+    --black: 36, 36, 38;
     --purple: 138, 27, 106;
     --text-opacity: 1;
     --bg-opacity: 1;
 }
-
 .text-green {
     color: rgba(var(--green), var(--text-opacity)) !important;
 }
 .bg-green {
     background-color: rgba(var(--green), var(--bg-opacity)) !important;
+}
+.border-green {
+    border-color: rgba(var(--green), var(--text-opacity)) !important;
 }
 .text-white {
     color: rgba(var(--white), var(--text-opacity)) !important;
@@ -117,11 +127,17 @@ body {
 .bg-white {
     background-color: rgba(var(--white), var(--bg-opacity)) !important;
 }
+.border-white {
+    border-color: rgba(var(--white), var(--text-opacity)) !important;
+}
 .text-grey {
     color: rgba(var(--grey), var(--text-opacity)) !important;
 }
 .bg-grey {
     background-color: rgba(var(--grey), var(--bg-opacity)) !important;
+}
+.border-grey {
+    border-color: rgba(var(--grey), var(--text-opacity)) !important;
 }
 .text-black {
     color: rgba(var(--black), var(--text-opacity)) !important;
@@ -129,9 +145,15 @@ body {
 .bg-black {
     background-color: rgba(var(--black), var(--bg-opacity)) !important;
 }
+.border-black {
+    border-color: rgba(var(--black), var(--text-opacity)) !important;
+}
 .text-purple {
     color: rgba(var(--purple), var(--text-opacity)) !important;
 }
 .bg-purple {
     background-color: rgba(var(--purple), var(--bg-opacity)) !important;
+}
+.border-purple {
+    border-color: rgba(var(--purple), var(--text-opacity)) !important;
 }
